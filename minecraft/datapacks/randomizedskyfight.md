@@ -9,7 +9,7 @@ Dies ist ein Spiel, in welchem alles zufällig ist. Testet es einfach selber aus
 
 ## Version
 
-Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibilität mit anderen Versionen ist nicht garantiert
+Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet. Kompatibilität mit anderen Versionen ist nicht garantiert.
 
 
 ## Installieren
@@ -26,7 +26,7 @@ Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibi
 ## Dateien
 
 - [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip)
-- [Version 5](https://github.com/rafaelurben/mc-randomizedskyfight/raw/650f42c320ed8134adda25d96c91f6b9583fb27f/randomizedskyfight.zip) -> Für 1.15.2
+- [Version 5](https://github.com/rafaelurben/mc-randomizedskyfight/raw/650f42c320ed8134adda25d96c91f6b9583fb27f/randomizedskyfight.zip) -> Für Minecraft 1.15.2
 
 
 
