@@ -1,5 +1,5 @@
-## Minecraft
+# Minecraft
 
-Hier findest du diverse Dinge von Minecraft
+Hier findest du diverse Dinge von mir zum Thema Minecraft:
 
-- [Datapacks](https://rafaelurben.github.io/minecraft/datapcks)
+- [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)

@@ -1,7 +1,8 @@
-## Hallo!
+# Hallo!
 
-Hier findest du diverse Dokumentationen zu meinen Projekten!
+Hier findest du diverse Dokumentationen und Anleitungen zu meinen Projekten!
 
-# Kategorien:
+### Kategorien:
 
 - [Minecraft](https://rafaelurben.github.io/minecraft)
+  - [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)
