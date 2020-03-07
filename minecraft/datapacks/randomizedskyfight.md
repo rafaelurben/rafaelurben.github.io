@@ -23,7 +23,7 @@ Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibi
 7. Verlasst den Baumodus und habt Spass!
 
 
-## Downloads
+## Dateien
 
 - [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip)
 - [Version 5](https://github.com/rafaelurben/mc-randomizedskyfight/raw/650f42c320ed8134adda25d96c91f6b9583fb27f/randomizedskyfight.zip) -> Für 1.15.2
