@@ -23,7 +23,7 @@ Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibi
 7. Verlasst den Baumodus und habt Spass!
 
 
-## Downloads
+## Dateien
 
 [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip)
 
@@ -31,8 +31,6 @@ Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibi
 
 
 
-# Zurück
+# Wo bin ich?
 
-Zurück zu allen [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)
-Zurück zu [Minecraft](https://rafaelurben.github.io/minecraft)
-Zurück zum [Start](https://rafaelurben.github.io)
+Du bist hier: [Start](https://rafaelurben.github.io)/[Minecraft](https://rafaelurben.github.io/minecraft)/[Datapacks](https://rafaelurben.github.io/minecraft/datapacks)/[Randomizer Skyfight](https://rafaelurben.github.io/minecraft/datapacks/randomizedskyfight)
