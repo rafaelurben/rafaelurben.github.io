@@ -30,6 +30,6 @@ Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibi
 
 
 
-##### Wo bin ich?
+## Wo bin ich?
 
 Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks) / [Randomizer Skyfight](https://rafaelurben.github.io/minecraft/datapacks/randomizedskyfight)

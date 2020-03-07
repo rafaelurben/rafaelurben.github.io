@@ -6,7 +6,7 @@ Hier findest du diverse Minecraft Datapacks von mir:
 
 
 
-### Ihr wollt auch ein Datapack?
+## Ihr wollt auch ein Datapack?
 
 Besucht mich auf [Fiverr](https://www.fiverr.com/rafaelurben/make-you-a-minecraft-datapack) und ihr könnt mich für wenig Geld beauftragen, ein Datapack zu erstellen.
 
@@ -14,6 +14,6 @@ Falls ihr mich dabei noch etwas mehr unterstützen wollt: Im höchsten [Tier](ht
 
 
 
-##### Wo bin ich?
+## Wo bin ich?
 
 Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)
