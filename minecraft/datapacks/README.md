@@ -14,6 +14,6 @@ Falls ihr mich dabei noch etwas mehr unterstützen wollt: Im höchsten [Tier](ht
 
 
 
-# Wo bin ich?
+##### Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io)/[Minecraft](https://rafaelurben.github.io/minecraft)/[Datapacks](https://rafaelurben.github.io/minecraft/datapacks)
+Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)

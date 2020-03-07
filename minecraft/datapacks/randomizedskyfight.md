@@ -23,14 +23,13 @@ Dieses Datapack wurde für die Version 1.15.2 entwickelt und getestet. Kompatibi
 7. Verlasst den Baumodus und habt Spass!
 
 
-## Dateien
+## Downloads
 
-[Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip)
-
-[Version 5](https://github.com/rafaelurben/mc-randomizedskyfight/raw/650f42c320ed8134adda25d96c91f6b9583fb27f/randomizedskyfight.zip) -> Für 1.15.2
-
+- [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip)
+- [Version 5](https://github.com/rafaelurben/mc-randomizedskyfight/raw/650f42c320ed8134adda25d96c91f6b9583fb27f/randomizedskyfight.zip) -> Für 1.15.2
 
 
-# Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io)/[Minecraft](https://rafaelurben.github.io/minecraft)/[Datapacks](https://rafaelurben.github.io/minecraft/datapacks)/[Randomizer Skyfight](https://rafaelurben.github.io/minecraft/datapacks/randomizedskyfight)
+##### Wo bin ich?
+
+Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks) / [Randomizer Skyfight](https://rafaelurben.github.io/minecraft/datapacks/randomizedskyfight)

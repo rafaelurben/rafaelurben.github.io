@@ -6,6 +6,6 @@ Hier findest du diverse Dinge von mir zum Thema Minecraft:
 
 
 
-# Wo bin ich?
+##### Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io)/[Minecraft](https://rafaelurben.github.io/minecraft)
+Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft)
