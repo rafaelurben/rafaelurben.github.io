@@ -2,4 +2,4 @@
 
 Hier findest du diverse Minecraft Datapacks
 
-- [Radmonized Skyfight](https://rafaelurben.github.io/minecraft/datapcks/randomizedskyfight)
+- [Randomized Skyfight](https://rafaelurben.github.io/minecraft/datapcks/randomizedskyfight)
