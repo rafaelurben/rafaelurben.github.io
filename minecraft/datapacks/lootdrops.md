@@ -14,7 +14,7 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Installieren
 
-1. Ladet euch die [aktuellste Version](https://github.com/rafaelurben/mc-lootdrops/raw/master/lootdrops.zip) des Datapacks herunter.
+1. Ladet euch die gewünschte Version des Datapacks herunter.
 2. Verschiebt die heruntergeladene Datei in den datapacks Order eurer Welt. (Entpacken ist nicht nötig!)
 3. Startet die Welt bzw. gebt `/reload` ein, falls ihr die Welt bereits geöffnet habt.
 4. Habt Spass!
@@ -22,8 +22,8 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Dateien
 
-- [Aktuellste Version](https://github.com/rafaelurben/mc-lootdrops/raw/master/lootdrops.zip)
-- [Version 1](https://github.com/rafaelurben/mc-lootdrops/raw/837add64c027d3752820164d636e9972b7b02403/lootdrops.zip) -> Für Minecraft 1.15.2
+- [Aktuellste Version](https://github.com/rafaelurben/mc-lootdrops/raw/master/downloads/lootdrops-v1.zip)
+- [Version 1](https://github.com/rafaelurben/mc-lootdrops/raw/master/downloads/lootdrops-v1.zip) -> Für Minecraft 1.15.2
 
 
 

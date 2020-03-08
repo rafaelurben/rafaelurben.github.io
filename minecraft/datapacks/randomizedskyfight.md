@@ -15,7 +15,7 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 ## Installieren
 
 1. Erstellt eine leere Welt mit dem Void-Template.
-2. Ladet euch die [aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip) des Datapacks herunter.
+2. Ladet euch die gewünschte Version des Datapacks herunter.
 3. Verschiebt die heruntergeladene Datei in den datapacks Order der erstellten Welt. (Entpacken ist nicht nötig!)
 4. Startet die Welt bzw. gebt `/reload` ein, falls ihr die Welt bereits geöffnet habt.
 5. Mit `/function game:build/enter` gelangt ihr in den Baumodus.
@@ -25,8 +25,8 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Dateien
 
-- [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/randomizedskyfight.zip)
-- [Version 5](https://github.com/rafaelurben/mc-randomizedskyfight/raw/650f42c320ed8134adda25d96c91f6b9583fb27f/randomizedskyfight.zip) -> Für Minecraft 1.15.2
+- [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/downloads/randomizedskyfight-v1.zip)
+- [Version 1](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/downloads/randomizedskyfight-v1.zip) -> Für Minecraft 1.15.2
 
 
 
