@@ -1,8 +1,9 @@
-# Hallo!
+## Willkommen
 
 Hier findest du diverse Dokumentationen und Anleitungen zu meinen Projekten!
+Falls du irgendwo ein Problem findest, kannst du gerne via GitHub unter dem entsprechenden Projekt ein "Issue" eröffnen oder mich per [Mail](mailto:rafael.urben@gmail.com) kontaktieren.
 
-## Kategorien:
+## Projekte
 
 - [Minecraft](https://rafaelurben.github.io/minecraft)
   - [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)
