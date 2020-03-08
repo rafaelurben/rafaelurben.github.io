@@ -3,7 +3,11 @@
 Hier findest du diverse Minecraft Datapacks von mir:
 
 - [Randomized Skyfight](https://rafaelurben.github.io/minecraft/datapacks/randomizedskyfight)
-
+- [Lootdrops](https://rafaelurben.github.io/minecraft/datapacks/lootdrops)
+- [TouchToFire](https://rafaelurben.github.io/minecraft/datapacks/touchtofire)
+- [TouchToRandom](https://rafaelurben.github.io/minecraft/datapacks/touchtorandom)
+- [TouchToBedrock](https://rafaelurben.github.io/minecraft/datapacks/touchtobedrock)
+- [Mob duplicator](https://rafaelurben.github.io/minecraft/datapacks/mobduplicator)
 
 
 ## Ihr wollt auch ein Datapack?
