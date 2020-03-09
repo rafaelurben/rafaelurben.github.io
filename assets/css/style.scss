@@ -1,5 +1,5 @@
-@import "jekyll-theme-slate";
+@import "{{ site.theme }}";
 
 #forkme_banner {
-  display: none;
+  display: none !important;
 }
