@@ -25,9 +25,9 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Dateien
 
-- [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/downloads/randomizedskyfight-v1.zip)
+- [Aktuellste Version](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/downloads/randomizedskyfight-v2.zip)
+- [Version 2](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/downloads/randomizedskyfight-v2.zip) -> Für Minecraft 1.15.2
 - [Version 1](https://github.com/rafaelurben/mc-randomizedskyfight/raw/master/downloads/randomizedskyfight-v1.zip) -> Für Minecraft 1.15.2
-
 
 
 ## Wo bin ich?

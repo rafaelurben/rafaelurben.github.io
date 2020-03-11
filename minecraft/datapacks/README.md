@@ -1,4 +1,4 @@
-# Minecraft Datapacks
+## Minecraft Datapacks
 
 Hier findest du diverse Minecraft Datapacks von mir:
 
