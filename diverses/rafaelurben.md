@@ -14,6 +14,7 @@ Ihr findet mich auf diversen Social Media Kanälen und Platformen unter dem Name
 - [YouTube](https://www.youtube.com/channel/UCz2S-3uW7-B9Dh6YdX9PeLg)
 - [Twitter](https://twitter.com/rafaelurben)
 - [Twitch](https://twitch.tv/rafaelurben)
+- [GitHub](https://github.com/rafaelurben)
 - [Discord](https://rebrand.ly/RUdiscord)
 
 ## Wo bin ich?
