@@ -21,6 +21,8 @@ Falls ihr mich dabei noch etwas mehr unterstützen wollt: Im höchsten [Tier](ht
 
 
 
-## Wo bin ich?
+* * *
+
+### Wo bin ich?
 
 Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Datapacks](/minecraft/datapacks)

@@ -17,6 +17,8 @@ Ihr findet mich auf diversen Social Media Kanälen und Platformen unter dem Name
 - [GitHub](https://github.com/rafaelurben)
 - [Discord](https://rebrand.ly/RUdiscord)
 
-## Wo bin ich?
+* * *
+
+### Wo bin ich?
 
 Du bist hier: [Start](/) / Diverses / [Rafael Urben](/diverses/rafaelurben)

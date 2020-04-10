@@ -28,6 +28,8 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 
 
-## Wo bin ich?
+* * *
+
+### Wo bin ich?
 
 Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Datapacks](/minecraft/datapacks) / [Lootdrops](/minecraft/datapacks/lootdrops)

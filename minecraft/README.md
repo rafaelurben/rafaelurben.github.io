@@ -6,6 +6,8 @@ Hier findest du diverse Dinge von mir zum Thema Minecraft:
 - [Links](/minecraft/links)
 
 
-## Wo bin ich?
+* * *
+
+### Wo bin ich?
 
 Du bist hier: [Start](/) / [Minecraft](/minecraft)

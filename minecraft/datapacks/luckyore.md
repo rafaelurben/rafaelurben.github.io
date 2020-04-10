@@ -28,6 +28,8 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 - [Resourcepack Aktuellste Version](https://github.com/rafaelurben/mc-luckyore/raw/master/downloads/luckyore-resources-v1.zip)
 - [Resourcepack Version 1](https://github.com/rafaelurben/mc-luckyore/raw/master/downloads/luckyore-resources-v1.zip) -> Für Minecraft 1.15.2
 
-## Wo bin ich?
+* * *
+
+### Wo bin ich?
 
 Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Datapacks](/minecraft/datapacks) / [LuckyOre](/minecraft/datapacks/luckyore)
