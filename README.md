@@ -5,10 +5,10 @@ Falls du irgendwo ein Problem findest, kannst du gerne via GitHub unter dem ents
 
 ## Projekte
 
-- [Minecraft]/minecraft)
-- [ASEA]/pages-asea)
+- [Minecraft](/minecraft)
+- [ASEA](/pages-asea)
 
 
 ## Wo bin ich?
 
-Du bist hier: [Start])
+Du bist hier: [Start](/)

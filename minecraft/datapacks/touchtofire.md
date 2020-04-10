@@ -29,4 +29,4 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Wo bin ich?
 
-Du bist hier: [Start]) / [Minecraft]/minecraft) / [Datapacks]/minecraft/datapacks) / [TouchToFire]/minecraft/datapacks/touchtofire)
+Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Datapacks](/minecraft/datapacks) / [TouchToFire](/minecraft/datapacks/touchtofire)

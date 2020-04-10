@@ -32,4 +32,4 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Wo bin ich?
 
-Du bist hier: [Start]) / [Minecraft]/minecraft) / [Datapacks]/minecraft/datapacks) / [Randomizer Skyfight]/minecraft/datapacks/randomizedskyfight)
+Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Datapacks](/minecraft/datapacks) / [Randomizer Skyfight](/minecraft/datapacks/randomizedskyfight)
