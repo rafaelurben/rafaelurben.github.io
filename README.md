@@ -5,10 +5,10 @@ Falls du irgendwo ein Problem findest, kannst du gerne via GitHub unter dem ents
 
 ## Projekte
 
-- [Minecraft](https://rafaelurben.github.io/minecraft)
-- [ASEA](https://rafaelurben.github.io/pages-asea)
+- [Minecraft]/minecraft)
+- [ASEA]/pages-asea)
 
 
 ## Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io)
+Du bist hier: [Start])

@@ -2,13 +2,15 @@
 
 Hier findest du diverse Minecraft Datapacks von mir:
 
-- [Randomized Skyfight](https://rafaelurben.github.io/minecraft/datapacks/randomizedskyfight)
-- [Lootdrops](https://rafaelurben.github.io/minecraft/datapacks/lootdrops)
-- [TouchToFire](https://rafaelurben.github.io/minecraft/datapacks/touchtofire)
-- [TouchToRandom](https://rafaelurben.github.io/minecraft/datapacks/touchtorandom)
-- [TouchToBedrock](https://rafaelurben.github.io/minecraft/datapacks/touchtobedrock)
-- [Mob duplicator](https://rafaelurben.github.io/minecraft/datapacks/mobduplicator)
-- [LuckyOre](https://rafaelurben.github.io/minecraft/datapacks/luckyore)
+- [Randomized Skyfight]/minecraft/datapacks/randomizedskyfight)
+- [Lootdrops]/minecraft/datapacks/lootdrops)
+- [TouchToFire]/minecraft/datapacks/touchtofire)
+- [TouchToRandom]/minecraft/datapacks/touchtorandom)
+- [TouchToBedrock]/minecraft/datapacks/touchtobedrock)
+- [Mob duplicator]/minecraft/datapacks/mobduplicator)
+- [LuckyOre]/minecraft/datapacks/luckyore)
+- [Autoloot]/minecraft/datapacks/autoloot) (W.i.p)
+- [Storage]/minecraft/datapacks/storage) (W.i.p)
 
 
 ## Ihr wollt auch ein Datapack?
@@ -21,4 +23,4 @@ Falls ihr mich dabei noch etwas mehr unterstützen wollt: Im höchsten [Tier](ht
 
 ## Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks)
+Du bist hier: [Start]) / [Minecraft]/minecraft) / [Datapacks]/minecraft/datapacks)

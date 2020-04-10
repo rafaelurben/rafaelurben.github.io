@@ -19,4 +19,4 @@ Ihr findet mich auf diversen Social Media Kanälen und Platformen unter dem Name
 
 ## Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io) / Diverses / [Rafael Urben](https://rafaelurben.github.io/diverses/rafaelurben)
+Du bist hier: [Start]) / Diverses / [Rafael Urben]/diverses/rafaelurben)

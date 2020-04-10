@@ -29,4 +29,4 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks) / [TouchToBedrock](https://rafaelurben.github.io/minecraft/datapacks/touchtobedrock)
+Du bist hier: [Start]) / [Minecraft]/minecraft) / [Datapacks]/minecraft/datapacks) / [TouchToBedrock]/minecraft/datapacks/touchtobedrock)

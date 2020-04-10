@@ -22,11 +22,12 @@ Dieses Datapack wurde für die Minecraft Version 1.15.2 entwickelt und getestet.
 
 ## Dateien
 
-- [Aktuellste Version](https://github.com/rafaelurben/mc-lootdrops/raw/master/downloads/lootdrops-v1.zip)
+- [Aktuellste Version](https://github.com/rafaelurben/mc-lootdrops/raw/master/downloads/lootdrops-v2.zip)
+- [Version 2](https://github.com/rafaelurben/mc-lootdrops/raw/master/downloads/lootdrops-v2.zip) -> Für Minecraft 1.15.2
 - [Version 1](https://github.com/rafaelurben/mc-lootdrops/raw/master/downloads/lootdrops-v1.zip) -> Für Minecraft 1.15.2
 
 
 
 ## Wo bin ich?
 
-Du bist hier: [Start](https://rafaelurben.github.io) / [Minecraft](https://rafaelurben.github.io/minecraft) / [Datapacks](https://rafaelurben.github.io/minecraft/datapacks) / [Lootdrops](https://rafaelurben.github.io/minecraft/datapacks/lootdrops)
+Du bist hier: [Start]) / [Minecraft]/minecraft) / [Datapacks]/minecraft/datapacks) / [Lootdrops]/minecraft/datapacks/lootdrops)
