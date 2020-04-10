@@ -4,3 +4,5 @@ theme: jekyll-theme-slate
 github:
   is_project_page: false
 url: https://rafaelurben.github.io
+plugins:
+  - jekyll-sitemap
