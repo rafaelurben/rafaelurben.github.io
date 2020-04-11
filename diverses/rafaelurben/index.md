@@ -1,7 +1,7 @@
 ## Über Rafael Urben
 
 Hallo! Ich heisse Rafael, bin im Jahre 2004 geboren und lebe in der Schweiz.
-Ich bin ein sehr grosser Fan von Informatik, was auch den grössten Teil meiner Freizeit ausmacht. 
+Ich bin ein sehr grosser Fan von Informatik, was auch den grössten Teil meiner Freizeit ausmacht.
 Der andere Teil meiner Freizeit, welcher zwar ziemlich kleiner, aber trotzdem wichtig ist, ist das Trommeln.
 Ich spiele mit der sogenannten "Basler Trommel" in einem Verein.
 
@@ -21,4 +21,4 @@ Ihr findet mich auf diversen Social Media Kanälen und Platformen unter dem Name
 
 ### Wo bin ich?
 
-Du bist hier: [Start](/) / Diverses / [Rafael Urben](/diverses/rafaelurben)
+Du bist hier: [Start](/) / Diverses / [Rafael Urben](/diverses/rafaelurben/)

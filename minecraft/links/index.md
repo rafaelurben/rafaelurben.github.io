@@ -28,4 +28,4 @@
 
 ### Wo bin ich?
 
-Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Links](/minecraft/links)
+Du bist hier: [Start](/) / [Minecraft](/minecraft/) / [Links](/minecraft/links/)

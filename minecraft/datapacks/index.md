@@ -2,15 +2,15 @@
 
 Hier findest du diverse Minecraft Datapacks von mir:
 
-- [Randomized Skyfight](/minecraft/datapacks/randomizedskyfight)
-- [Lootdrops](/minecraft/datapacks/lootdrops)
-- [TouchToFire](/minecraft/datapacks/touchtofire)
-- [TouchToRandom](/minecraft/datapacks/touchtorandom)
-- [TouchToBedrock](/minecraft/datapacks/touchtobedrock)
-- [Mob duplicator](/minecraft/datapacks/mobduplicator)
-- [LuckyOre](/minecraft/datapacks/luckyore)
-- [Autoloot](/minecraft/datapacks/autoloot) (W.i.p)
-- [Storage](/minecraft/datapacks/storage) (W.i.p)
+- [Randomized Skyfight](/minecraft/datapacks/randomizedskyfight/)
+- [Lootdrops](/minecraft/datapacks/lootdrops/)
+- [TouchToFire](/minecraft/datapacks/touchtofire/)
+- [TouchToRandom](/minecraft/datapacks/touchtorandom/)
+- [TouchToBedrock](/minecraft/datapacks/touchtobedrock/)
+- [Mob duplicator](/minecraft/datapacks/mobduplicator/)
+- [LuckyOre](/minecraft/datapacks/luckyore/)
+- [Autoloot](/minecraft/datapacks/autoloot/) (W.i.p)
+- [Storage](/minecraft/datapacks/storage/) (W.i.p)
 
 
 ## Ihr wollt auch ein Datapack?
@@ -25,4 +25,4 @@ Falls ihr mich dabei noch etwas mehr unterstützen wollt: Im höchsten [Tier](ht
 
 ### Wo bin ich?
 
-Du bist hier: [Start](/) / [Minecraft](/minecraft) / [Datapacks](/minecraft/datapacks)
+Du bist hier: [Start](/) / [Minecraft](/minecraft/) / [Datapacks](/minecraft/datapacks/)
