@@ -5,4 +5,14 @@ github:
   is_project_page: false
 url: https://rafaelurben.github.io
 plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
+lang: de_CH
+social:
+  name: Rafael Urben
+  links:
+    - https://twitter.com/RafaelUrben
+    - https://github.com/rafaelurben
+    - https://instagram.com/rafaelurben
+    - https://rafaelurben.github.io
