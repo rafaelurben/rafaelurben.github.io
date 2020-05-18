@@ -9,6 +9,7 @@ Hier findest du diverse Minecraft Datapacks von mir:
 - [TouchToBedrock](/minecraft/datapacks/touchtobedrock/)
 - [Mob duplicator](/minecraft/datapacks/mobduplicator/)
 - [LuckyOre](/minecraft/datapacks/luckyore/)
+- [Permanent and global curing discounts](/minecraft/datapacks/permanentcuringdiscount)
 - [Autoloot](/minecraft/datapacks/autoloot/) (W.i.p)
 - [Storage](/minecraft/datapacks/storage/) (W.i.p)
 
