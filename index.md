@@ -9,8 +9,8 @@ Wenn du mehr über mich erfahren willst, besuche [diese Seite](/diverses/rafaelu
 
 - [Minecraft](/minecraft/)
 - [ASEA Schweiz](/pages-asea/)
-- [Django Apps](/django/)
-- [Raspberry Pi Projekte](/raspberrypi)
+- [Django Apps](/django/) (w.i.p)
+- [Raspberry Pi Projekte](/raspberrypi) (w.i.p)
 
 
 
