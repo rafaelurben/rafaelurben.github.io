@@ -1,12 +1,14 @@
 ## Permanent and global curing discounts
 
 Dieses Datapack ist in Zusammenarbeit mit einem Kunden via [Fiverr](https://www.fiverr.com/rafaelurben/make-you-a-minecraft-datapack) entstanden.
-Die Person hatte die Idee, [ich](https://fiverr.com/rafaelurben) habe sie umgesetzt.
+Der Kunde hatte die Idee, [ich](https://fiverr.com/rafaelurben) habe sie umgesetzt.
 
 ## Was ist das?
 
-Dies ist ein kleines Datapack, welches alle die Rabatte von Villagern für alle Spieler zugänglich macht.
+Dies ist ein kleines Datapack, welches die Rabatte von Villagern für alle Spieler zugänglich macht.
 Ebenfalls sollten die Rabatte nicht verschwinden oder sich verschlechtern.
+
+Hinweis: Villager-Daten zu bearbeiten scheint teilweise bei Villagern komisches Verhalten hervorzurufen. Deshalt könnten sich Villager komisch verhalten. Aus selbem Grund muss man, damit man die Rabatte erhält, bis zu 5 Sekunden lang den nächsten Spieler vom Villager aus gesehen sein.
 
 ## Version
 
