@@ -8,13 +8,22 @@ Dies ist ein kleines Datapack, welches zusätzliche Blöcke und Features zum Spi
     - Erstellung: 8 Obsidian und eine ganze Diamantspitzhacke auf einen Spender (Dropper) droppen
     - Benutzung: Gewünschtes Werkzeug in den Dropper legen und zuschauen ;)
     - Funktion: Zerstört jede Sekunde den Block in Blickrichtung des Droppers.
-    - Deaktiviert bei Redstone-Signal
+    - Hinweis: Deaktiviert bei Redstone-Signal
 
 - Blockplacer (Block)
     - Erstellung: 8 Obsidian und ein Redstone auf einen Werfer (Dispender) droppen.
-    - Benutzung: Zu plazierende Blöcke in den Werfer legen. (Es werden nur (noch) nicht alle blöcke unterstützt!)
+    - Benutzung: Zu plazierende Blöcke in den Werfer legen. (Es werden (noch) nicht alle blöcke unterstützt!)
     - Funktion: Platziert jede Sekunde einen Block, sofern Platz dafür ist und ein unterstützter Block im Werfer ist.
-    - Deaktiviert bei Redstone-Signal
+    - Hinweis: Deaktiviert bei Redstone-Signal
+
+- Teleporter (Block)
+    - Erstellung: Teleporter (von Endermites gedroppt) auf ein nicht brennendes Lagerfeuer platzieren.
+    - Benutzung: Auf einen Teleporter stehen, einen anderen Teleporter (<32m) anschauen und springen.
+    - Funktion: Teleportiert dich zum Preis von ein paar Herzen zu einem anderen Teleporter.
+    - Idee und Original von [Halbzwilling](https://www.youtube.com/watch?v=c3X1R0njeNY)
+
+- Vakuum-Trichter (Block)
+    - (für später geplant)
 
 ## Version
 
