@@ -10,7 +10,7 @@ Ich spiele mit der sogenannten "Basler Trommel" in einem Verein.
 Ihr findet mich auf diversen Social Media Kanälen und Platformen unter dem Namen "rafaelurben":
 
 -   [Instagram](https://instagram.com/rafaelurben)
--   [Facebook](https://facebook.com/rafaelurbench)
+-   [Facebook](https://facebook.com/rafaelurben)
 -   [YouTube](https://www.youtube.com/channel/UCz2S-3uW7-B9Dh6YdX9PeLg)
 -   [Twitter](https://twitter.com/rafaelurben)
 -   [Twitch](https://twitch.tv/rafaelurben)
