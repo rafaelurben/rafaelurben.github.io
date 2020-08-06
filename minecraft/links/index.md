@@ -1,31 +1,29 @@
-## Wichtige Links:
+---
+breadcrumbs: true
+---
 
-- [MCStacker](https://mcstacker.net/) (Command Generator)
-- [Minecraft Wiki DE](http://minecraft-de.gamepedia.com/Minecraft_Wiki) / [EN](http://minecraft.gamepedia.com/Minecraft_Wiki)
-- [Minecraft JSON](https://minecraftjson.com/) (Generator für Schilder / tellraw / Bücher etc.)
-- [Minecraft Tools](http://minecraft.tools/)
-- [Minecraft CurseForge](https://minecraft.curseforge.com/) (Mods)
-- [Minecraft CommandScience](https://minecraftcommand.science/de/prefilled-chest-generator)
+# Minecraft Links
 
-- [Minecraft Crafting Recipe Generator](https://crafting.thedestruc7i0n.ca/)
-- [Minecraft Advancements Generator](https://advancements.thedestruc7i0n.ca/)
+## Wichtige Links
 
-- [Minecraft Loot Table Generator](https://misode.github.io/loot-table)
-- [Minecraft Predicate Generator](https://misode.github.io/predicate)
-- [Minecraft Advancement Generator](https://misode.github.io/advancement)
+-   [MCStacker](https://mcstacker.net/) (Command Generator)
+-   [Minecraft Wiki DE](http://minecraft-de.gamepedia.com/Minecraft_Wiki) / [EN](http://minecraft.gamepedia.com/Minecraft_Wiki)
+-   [Minecraft JSON](https://minecraftjson.com/) (Generator für Schilder / tellraw / Bücher etc.)
+-   [Minecraft Tools](http://minecraft.tools/)
+-   [Minecraft CurseForge](https://minecraft.curseforge.com/) (Mods)
+-   [Minecraft CommandScience](https://minecraftcommand.science/de/prefilled-chest-generator)
 
-## Wichtige Links für Server:
+-   [Minecraft Crafting Recipe Generator](https://crafting.thedestruc7i0n.ca/)
+-   [Minecraft Advancements Generator](https://advancements.thedestruc7i0n.ca/)
 
-- [MC-Host24](https://mc-host24.de/)
-- [Aternos](https://aternos.org/server/) (Gratis)
-- [Nitrado](https://server.nitrado.net/deu/gameserver-mieten)
+-   [Minecraft Loot Table Generator](https://misode.github.io/loot-table)
+-   [Minecraft Predicate Generator](https://misode.github.io/predicate)
+-   [Minecraft Advancement Generator](https://misode.github.io/advancement)
 
-- [Ngrok](https://ngrok.com/) (für self-hosting - Command: ngrok tcp 25565)
+## Wichtige Links für Server
 
+-   [MC-Host24](https://mc-host24.de/)
+-   [Aternos](https://aternos.org/server/) (Gratis)
+-   [Nitrado](https://server.nitrado.net/deu/gameserver-mieten)
 
-
-* * *
-
-### Wo bin ich?
-
-Du bist hier: [Start](/) / [Minecraft](/minecraft/) / [Links](/minecraft/links/)
+-   [Ngrok](https://ngrok.com/) (für self-hosting - Command: ngrok tcp 25565)

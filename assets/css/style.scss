@@ -42,7 +42,12 @@ nav#breadcrumbs {
     padding: 10px 0px;
     width: 100%;
     background-color: var(--color-dark);
-    display: none;
+}
+
+nav#breadcrumbs > div {
+    max-width: 64rem;
+    padding: 0.1rem 6rem;
+    margin: 0 auto;
 }
 
 nav#breadcrumbs a {

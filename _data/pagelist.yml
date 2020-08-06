@@ -1,6 +1,6 @@
 home:
     title: Home
-    url:
+    url: /
     pages:
         diverses:
             title: Diverses

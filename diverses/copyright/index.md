@@ -1,3 +1,7 @@
+---
+breadcrumbs: true
+---
+
 # Copyright & Wichtige Infos
 
 Hier findest du diverse von mir gemachte technisch-bezogene Dinge.
