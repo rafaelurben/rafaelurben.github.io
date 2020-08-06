@@ -62,3 +62,11 @@ nav#breadcrumbs a:hover {
 nav#breadcrumbs span.arrow {
     color: rgba(255, 255, 255, 0.7);
 }
+
+// Diverses
+
+@media screen and (max-width: 42em) {
+    .hideonmobile {
+        display: none;
+    }
+}
