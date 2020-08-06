@@ -1,0 +1,57 @@
+home:
+    title: Home
+    url:
+    pages:
+        diverses:
+            title: Diverses
+            pages:
+                copyright:
+                    title: Copyright
+                    url: /diverses/copyright/
+                rafaelurben:
+                    title: Über mich
+                    url: /diverses/rafaelurben/
+        minecraft:
+            title: Minecraft
+            url: /minecraft/
+            pages:
+                links:
+                    title: Links
+                    url: /minecraft/links/
+                datapacks:
+                    title: Datapacks
+                    url: /minecraft/datapacks/
+                    pages:
+                        autoloot:
+                            title: Autoloot
+                            url: /minecraft/datapacks/autoloot/
+                        automation:
+                            title: Automation
+                            url: /minecraft/datapacks/automation/
+                        lootdrops:
+                            title: Lootdrops
+                            url: /minecraft/datapacks/lootdrops/
+                        luckyore:
+                            title: Luckyore
+                            url: /minecraft/datapacks/luckyore/
+                        mobduplicator:
+                            title: Mobduplicator
+                            url: /minecraft/datapacks/mobduplicator/
+                        permanentcuringdiscount:
+                            title: Permanentcuringdiscount
+                            url: /minecraft/datapacks/permanentcuringdiscount/
+                        randomizedskyfight:
+                            title: Randomizedskyfight
+                            url: /minecraft/datapacks/randomizedskyfight/
+                        storage:
+                            title: Storage
+                            url: /minecraft/datapacks/storage/
+                        touchtobedrock:
+                            title: TouchToBedrock
+                            url: /minecraft/datapacks/touchtobedrock/
+                        touchtofire:
+                            title: TouchToFire
+                            url: /minecraft/datapacks/touchtofire/
+                        touchtorandom:
+                            title: TouchToRandom
+                            url: /minecraft/datapacks/touchtorandom/

@@ -1,0 +1,9 @@
+facebook-messenger:
+  href: 'https://m.me/rafaelurben'
+  title: 'Facebook Messenger'
+  fa-icon: 'fa-facebook-messenger'
+
+telegram:
+  href: 'https://t.me/rafaelurben'
+  title: 'Telegram'
+  fa-icon: 'fa-telegram'

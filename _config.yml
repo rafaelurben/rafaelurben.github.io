@@ -1,6 +1,6 @@
+theme: jekyll-theme-cayman
 title: Rafael Urben
 description: Dokumentationen zu meinen Projekten
-theme: jekyll-theme-slate
 github:
   is_project_page: false
 url: https://rafaelurben.github.io
@@ -8,11 +8,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-last-modified-at
 lang: de_CH
-social:
-  name: Rafael Urben
-  links:
-    - https://twitter.com/RafaelUrben
-    - https://github.com/rafaelurben
-    - https://instagram.com/rafaelurben
-    - https://rafaelurben.github.io
+google_site_verification: AXsYv8VFf-r-4a-bUfFDbfO2KgBhhvKMDm2QtjmQ72Y

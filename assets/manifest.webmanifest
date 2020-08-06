@@ -1,0 +1,16 @@
+-- -
+-- -
+
+{
+    "name": "Rafael Urben",
+    "short_name": "Rafael",
+    "start_url": "{{ site.url }}",
+    "scope": "{{ site.url }}",
+    "display": "standalone",
+    "background_color": "#000",
+    "theme_color": "#000",
+    "description": "Projekte von Rafael Urben",
+    "dir": "ltr",
+    "lang": "de",
+    "icons": []
+}
