@@ -30,26 +30,34 @@ Du kannst mich entweder via Social Media Kanäle kontaktieren oder via die Mögl
 
 {% if site.data.social-media %}
 
-<div style="display: none;" id="data-social-media">
+<ul style="display: none;">
     {% assign sm = site.data.social-media %}
     {% for entry in sm %}
         {% assign key = entry | first %}
         {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="{{ sm[key].fa-icon }}"></i></a>
+            <li>
+                <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">
+                    <i class="{{ sm[key].fa-icon }}"></i> {{ sm[key].title }}
+                </a>
+            </li>
         {% endif %}
     {% endfor %}
-</div>
+</ul>
 {% endif %}
 
 {% if site.data.kontakt %}
 
-<div style="display: none;" id="data-kontakt">
-    {% assign sm = site.data.kontakt %}
-    {% for entry in sm %}
+<ul style="display: none;">
+    {% assign kt = site.data.kontakt %}
+    {% for entry in kt %}
         {% assign key = entry | first %}
-        {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="{{ sm[key].fa-icon }}"></i></a>
+        {% if kt[key].id %}
+            <li>
+                <a href="{{ kt[key].href }}{{ kt[key].id }}" title="{{ kt[key].title }}">
+                    <i class="{{ kt[key].fa-icon }}"></i> {{ kt[key].title }}
+                </a>
+            </li>
         {% endif %}
     {% endfor %}
-</div>
+</ul>
 {% endif %}
