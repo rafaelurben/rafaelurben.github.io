@@ -2,10 +2,10 @@ facebook-messenger:
   id: 'rafaelurben'
   href: 'https://m.me/'
   title: 'Facebook Messenger'
-  fa-icon: 'fa-facebook-messenger'
+  fa-icon: 'fab fa-facebook-messenger'
 
 telegram:
   id: 'rafaelurben'
   href: 'https://t.me/'
   title: 'Telegram'
-  fa-icon: 'fa-telegram'
+  fa-icon: 'fab fa-telegram'

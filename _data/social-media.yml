@@ -2,34 +2,34 @@ facebook:
   id: 'rafaelurben'
   href: 'https://www.facebook.com/'
   title: 'Facebook'
-  fa-icon: 'fa-facebook-square'
+  fa-icon: 'fab fa-facebook-square'
 
 twitter:
   id: 'rafaelurben'
   href: 'https://www.twitter.com/'
   title: 'Twitter'
-  fa-icon: 'fa-twitter-square'
+  fa-icon: 'fab fa-twitter-square'
 
 github:
   id: 'rafaelurben'
   href: 'https://github.com/'
   title: 'GitHub'
-  fa-icon: 'fa-github-square'
+  fa-icon: 'fab fa-github-square'
 
 youtube:
   id: 'channel/UCz2S-3uW7-B9Dh6YdX9PeLg'
   href: 'https://www.youtube.com/'
   title: 'YouTube'
-  fa-icon: 'fa-youtube-square'
+  fa-icon: 'fab fa-youtube-square'
 
 instagram:
   id: 'rafaelurben'
   href: 'https://instagram.com/'
   title: 'Instagram'
-  fa-icon: 'fa-instagram-square'
+  fa-icon: 'fab fa-instagram-square'
 
 twitch:
   id: 'rafaelurben'
   href: 'https://twitch.com/'
   title: 'Twitch'
-  fa-icon: 'fa-twitch'
+  fa-icon: 'fab fa-twitch'

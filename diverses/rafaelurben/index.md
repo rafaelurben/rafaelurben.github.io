@@ -35,7 +35,7 @@ Du kannst mich entweder via Social Media Kanäle kontaktieren oder via die Mögl
     {% for entry in sm %}
         {% assign key = entry | first %}
         {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="{{ sm[key].fa-icon }}"></i></a>
         {% endif %}
     {% endfor %}
 </div>
@@ -48,7 +48,7 @@ Du kannst mich entweder via Social Media Kanäle kontaktieren oder via die Mögl
     {% for entry in sm %}
         {% assign key = entry | first %}
         {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="{{ sm[key].fa-icon }}"></i></a>
         {% endif %}
     {% endfor %}
 </div>
