@@ -1,5 +1,5 @@
 ---
-breadcrumbs: true
+breadcrumbs: false
 ---
 
 # Willkommen
