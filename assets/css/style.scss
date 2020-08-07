@@ -64,18 +64,18 @@ nav#breadcrumbs span.arrow {
 @media screen and (min-width: 64em) {
     nav#breadcrumbs > div {
         max-width: 64rem;
-        padding: 2rem 6rem;
+        padding: 0.1rem 6rem;
         margin: 0 auto;
     }
 }
 @media screen and (min-width: 42em) and (max-width: 64em) {
     nav#breadcrumbs > div {
-        padding: 2rem 4rem;
+        padding: 0.1rem 4rem;
     }
 }
 @media screen and (max-width: 42em) {
     nav#breadcrumbs > div {
-        padding: 2rem 1rem;
+        padding: 0.1rem 1rem;
     }
 }
 
