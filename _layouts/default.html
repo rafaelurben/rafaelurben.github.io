@@ -56,7 +56,7 @@
         <main id="content" class="main-content" role="main">
             {{ content }}
 
-            {% if page.fbcontact %}
+            {% if page.fbcontact and site.facebook_page_id %}
                 <!-- Load Facebook SDK for JavaScript -->
                 <div id="fb-root"></div>
                 <script>
@@ -80,7 +80,7 @@
                 <div
                     class="fb-customerchat"
                     attribution="setup_tool"
-                    page_id="108950263962814"
+                    page_id="{{ site.facebook_page_id }}"
                     theme_color="#44bec7"
                     logged_in_greeting="Hey! Falls du eine Frage hast, zögere nicht und frage sie :)"
                     logged_out_greeting="Hey! Falls du eine Frage hast, zögere nicht und frage sie :)"></div>

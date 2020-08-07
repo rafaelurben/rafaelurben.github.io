@@ -12,7 +12,7 @@ Ich spiele mit der sogenannten "Basler Trommel" in einem Verein.
 
 ## Social Media
 
-Ihr findet mich auf diversen Social Media Kanälen und Platformen unter dem Namen "rafaelurben":
+Du findest mich auf diversen Social Media Kanälen und Platformen unter dem Namen "rafaelurben":
 
 <ul>
     {% assign sm = site.data.social-media %}
