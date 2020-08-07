@@ -7,5 +7,5 @@ fbcontact: true
 
 Hier findest du diverse Dinge von mir zum Thema Minecraft:
 
--   [Datapacks](/minecraft/datapacks/)
--   [Links](/minecraft/links/)
+-   [Datapacks](datapacks/)
+-   [Links](links/)

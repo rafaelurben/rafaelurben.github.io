@@ -9,20 +9,20 @@ Hier findest du diverse Minecraft Datapacks von mir.
 
 Meine Ideen:
 
--   [Automation](/minecraft/datapacks/automation/)
--   [Storage](/minecraft/datapacks/storage/) (W.i.p)
+-   [Automation](automation/)
+-   [Storage](storage/) (W.i.p)
 
 Ideen von anderen Leuten:
 
--   [Randomized Skyfight](/minecraft/datapacks/randomizedskyfight/)
--   [Lootdrops](/minecraft/datapacks/lootdrops/)
--   [TouchToFire](/minecraft/datapacks/touchtofire/)
--   [TouchToRandom](/minecraft/datapacks/touchtorandom/)
--   [TouchToBedrock](/minecraft/datapacks/touchtobedrock/)
--   [Mob duplicator](/minecraft/datapacks/mobduplicator/)
--   [LuckyOre](/minecraft/datapacks/luckyore/)
--   [Permanent and global curing discounts](/minecraft/datapacks/permanentcuringdiscount)
--   [Autoloot](/minecraft/datapacks/autoloot/) (W.i.p)
+-   [Randomized Skyfight](randomizedskyfight/)
+-   [Lootdrops](lootdrops/)
+-   [TouchToFire](touchtofire/)
+-   [TouchToRandom](touchtorandom/)
+-   [TouchToBedrock](touchtobedrock/)
+-   [Mob duplicator](mobduplicator/)
+-   [LuckyOre](luckyore/)
+-   [Permanent and global curing discounts](permanentcuringdiscount/)
+-   [Autoloot](autoloot/) (W.i.p)
 
 ## Ihr wollt auch ein eigenes Datapack?
 
