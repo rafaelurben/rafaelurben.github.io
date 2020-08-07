@@ -1,5 +1,6 @@
 ---
 breadcrumbs: false
+fbcontact: true
 ---
 
 # Willkommen

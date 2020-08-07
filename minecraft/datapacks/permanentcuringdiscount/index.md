@@ -1,5 +1,6 @@
 ---
 breadcrumbs: true
+fbcontact: true
 ---
 
 # Permanent and global curing discounts

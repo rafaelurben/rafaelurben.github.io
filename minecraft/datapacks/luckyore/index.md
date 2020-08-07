@@ -1,5 +1,6 @@
 ---
 breadcrumbs: true
+fbcontact: true
 ---
 
 # LuckyOre
