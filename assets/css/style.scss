@@ -15,6 +15,11 @@ body {
     scroll-behavior: smooth;
 }
 
+header a.home {
+    text-decoration: none;
+    color: white;
+}
+
 .page-header {
     background-color: var(--color-darkest);
     background-image: linear-gradient(120deg, var(--color-darkest), var(--color-light));

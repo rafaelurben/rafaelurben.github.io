@@ -30,9 +30,10 @@
 
         {% unless page.noheader %}
             <header class="page-header" role="banner">
-                <h1 class="project-name">{{ site.title }}</h1>
-                <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-                <a href="{{ '/' | relative_url }}" class="btn">Home</a>
+                <a class="home" href="{{ '/' | relative_url }}">
+                    <h1 class="project-name">{{ site.title }}</h1>
+                    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+                </a>
                 {% if site.github.is_project_page %}
                     <a href="{{ site.github.repository_url }}" class="btn hideonmobile">Auf GitHub ansehen</a>
                 {% endif %}
@@ -58,7 +59,7 @@
                         <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
                         unterhalten.</span>
                 {% endif %}
-                <span class="site-footer-credits">Seite von
+                <span class="site-footer-credits">Seite erstellt von
                     <a href="{{ '/diverses/rafaelurben/' }}">Rafael Urben</a>
                     - Gehostet von
                     <a href="https://pages.github.com">GitHub Pages</a>. Danke &lt;3
