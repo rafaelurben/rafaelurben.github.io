@@ -9,7 +9,7 @@ Hier findest du diverse von mir gemachte technisch-bezogene Dinge.
 
 Falls du irgendwo einen Fehler entdeckst, wäre ich froh, wenn du ihn mir melden könntest.
 
-## WICHTIG!
+## WICHTIG
 
 Sei fair und gib die Programme nicht direkt weiter, sondern verweise immer auf die entsprechende Seite meiner Webseite (oder, falls vorhanden, den GitHub-Link). Das verhindert auch, dass ungültige Download-Links in den Umlauf kommen, da diese ändern könnten.
 

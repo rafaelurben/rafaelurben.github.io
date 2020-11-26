@@ -18,5 +18,5 @@ Wenn du mehr über mich erfahren willst, besuche [diese Seite](diverses/rafaelur
 
 ## Externe Seiten
 
--   [Django KMUHelper](/django-kmuhelper/)
+-   [Django KMUHelper (Dokumentation)](/django-kmuhelper/)
 -   [Redox Schweiz (Webseite)](/pages-asea/)
