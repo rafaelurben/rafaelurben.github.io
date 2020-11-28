@@ -12,11 +12,24 @@ Wenn du mehr über mich erfahren willst, besuche [diese Seite](diverses/rafaelur
 
 ## Navigation
 
--   [Minecraft](minecraft/)
+- [Minecraft Projekte](minecraft/)
+- [Raspberry Pi Projekte](raspberrypi/)
 
-    <!-- -   [Raspberry Pi Projekte](raspberrypi/) (w.i.p) -->
+## Projekte und Webseiten
 
-## Externe Seiten
+Hier findest du diverse Projekte und von mir erstellte Webseiten.
 
--   [Django KMUHelper (Dokumentation)](/django-kmuhelper/)
--   [Redox Schweiz (Webseite)](/pages-asea/)
+### Dokumentierte Projekte
+
+- [Django KMUHelper](https://rafaelurben.github.io/django-kmuhelper/) - Eine Buchhaltungs-Webapp
+
+### Undokumentierte Projekte
+
+- [Django Discordbot](https://github.com/rafaelurben/django-discordbot)
+
+... und viele weiter auf meinem [GitHub Account](https://github.com/rafaelurben).
+
+### Webseiten
+
+- Diese Webseite
+- [Redox Schweiz](https://redoxschweiz.ch)

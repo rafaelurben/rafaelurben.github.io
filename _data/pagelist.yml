@@ -55,3 +55,10 @@ home:
                         touchtorandom:
                             title: TouchToRandom
                             url: /minecraft/datapacks/touchtorandom/
+        raspbeerrypi:
+            title: RaspberryPi
+            url: /raspberrypi/
+            pages:
+                minecraftserver:
+                    title: Minecraft-Server
+                    url: /raspberrypi/minecraftserver/
