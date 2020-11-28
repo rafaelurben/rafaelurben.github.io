@@ -32,4 +32,4 @@ Hier findest du diverse Projekte und von mir erstellte Webseiten.
 ### Webseiten
 
 - Diese Webseite
-- [Redox Schweiz](https://redoxschweiz.ch)
+- [Redox Schweiz](https://rafaelurben.github.io/pages-asea/)
