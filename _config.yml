@@ -3,7 +3,7 @@ title: Rafaels Projekte
 description: Dokumentationen zu meinen Projekten
 github:
   is_project_page: false
-url: https://rafaelurben.github.io
+url: https://www.rafaelurben.ch
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
