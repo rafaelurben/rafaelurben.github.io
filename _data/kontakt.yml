@@ -9,3 +9,8 @@ telegram:
   href: 'https://t.me/'
   title: 'Telegram'
   fa-icon: 'fab fa-telegram'
+
+mail:
+  href: 'mailto:kontakt@rafaelurben.ch'
+  title: 'E-Mail'
+  fa-icon: 'fas fa-envelope'
