@@ -10,6 +10,8 @@ Falls du irgendwo ein Problem findest, kannst du gerne via GitHub unter dem ents
 
 Wenn du mehr über mich erfahren willst, besuche [diese Seite](diverses/rafaelurben/#über-rafael-urben).
 
+Diese Seite ist veraltet und wird aktuell komplett redesignt. #staytuned
+
 ## Navigation
 
 - [Minecraft Projekte](minecraft/)
@@ -27,7 +29,7 @@ Hier findest du diverse Projekte und von mir erstellte Webseiten.
 
 - [Django Discordbot](https://github.com/rafaelurben/django-discordbot)
 
-... und viele weiter auf meinem [GitHub Account](https://github.com/rafaelurben).
+... und viele weitere auf meinem [GitHub Account](https://github.com/rafaelurben).
 
 ### Webseiten
 
