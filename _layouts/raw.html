@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="/">Rafael Urben</a><button data-toggle="collapse"
+                class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
+                            aria-expanded="false" href="#">Language</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Deutsch</a><a class="dropdown-item"
+                                href="#">English</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {% if page.title %}
+    <div class="highlight-blue">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">{{ page.title }}</h2>
+                <p class="text-center">{{ page.subtitle }}</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    {% include de_footer.html %}
+</body>
+
+</html>

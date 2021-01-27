@@ -1,13 +1,13 @@
-theme: jekyll-theme-cayman
-title: Rafaels Projekte
+title: Rafael Urben
 description: Dokumentationen zu meinen Projekten
 url: https://www.rafaelurben.ch
 plugins:
-  - jekyll-seo-tag
-google_site_verification: AXsYv8VFf-r-4a-bUfFDbfO2KgBhhvKMDm2QtjmQ72Y
-fontawesome: 67ab7aa4a7
-app:
-    title: Projekte von Rafael Urben
-    short_title: Rafaels Projekte
-    description: Dokumentationen zu Projekten von Rafael Urben
-facebook_page_id: 108950263962814
+  - jekyll-last-modified
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      last-modified-at: 2021-01-27 18:30:00 +0100

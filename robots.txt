@@ -5,6 +5,7 @@ User-agent: *
 
 Sitemap: {{ site.url }}/sitemap.xml
 Sitemap: {{ site.url }}/kmuhelper/sitemap.xml
+Sitemap: {{ site.url }}/django-kmuhelper/sitemap.xml
 
 Disallow: /*.html$
 Disallow: */index$
