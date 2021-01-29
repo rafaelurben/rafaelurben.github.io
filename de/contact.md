@@ -1,4 +1,5 @@
 ---
+permalink: /contact
 title: Kontakt
 subtitle: Nimm mit mir Kontakt auf
 ---

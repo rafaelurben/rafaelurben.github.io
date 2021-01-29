@@ -1,5 +1,5 @@
 ---
-breadcrumbs: true
+permalink: /about
 title: Über mich
 subtitle: Finde mehr über mich heraus
 ---

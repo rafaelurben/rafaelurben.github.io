@@ -1,25 +1,31 @@
+{% assign language = page.language | default: "de" %}
+{% assign lang = site.data.languages[language].footer %}
+
 <div class="footer-dark">
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3 item">
-                    <h3>Seiten</h3>
+                    <h3>{{ lang.pagestitle }}</h3>
                     <ul>
-                        <li><a href="/">Startseite</a></li>
-                        <li><a href="/projekte">Projekte</a></li>
-                        <li><a href="/kontakt">Kontakt</a></li>
+                        {% for page in lang.pages %}
+                        <li><a href="{{ page.href }}">{{ page.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
-                    <h3>Sprachen</h3>
+                    <h3>{{ lang.languagetitle }}</h3>
                     <ul>
-                        <li><a href="/">Deutsch</a></li>
-                        <li><a href="/en/">Englisch</a></li>
+                        {% for lang in page.languages %}
+                        <li><a href="{{ lang.href }}">{{ lang.title }}</a></li>
+                        {% else %}
+                        <li><a>{{ lang.nolanguagesavailable }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div class="col-md-6 item text">
                     <h3>Rafael Urben</h3>
-                    <p>Lorem impsum... Ach was, das ist doch langweilig.</p>
+                    <p>{{ lang.infos }}</p>
                 </div>
                 <div class="col item social">
                     <a href="https://go.rafaelurben.ch/github">

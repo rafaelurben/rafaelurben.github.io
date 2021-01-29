@@ -2,63 +2,64 @@ home:
     title: Home
     url: /
     pages:
-        diverses:
-            title: Diverses
+        contact:
+            title: Kontakt
+            url: /contact
+        about:
+            title: Über
+            url: /about
+        projects:
+            title: Projekte
+            url: /projects/
             pages:
-                copyright:
-                    title: Copyright
-                    url: /diverses/copyright/
-                rafaelurben:
-                    title: Über mich
-                    url: /diverses/rafaelurben/
-        minecraft:
-            title: Minecraft
-            url: /minecraft/
-            pages:
-                links:
-                    title: Links
-                    url: /minecraft/links/
-                datapacks:
-                    title: Datapacks
-                    url: /minecraft/datapacks/
+                minecraft:
+                    title: Minecraft
+                    url: /projects/minecraft/
                     pages:
-                        autoloot:
-                            title: Autoloot
-                            url: /minecraft/datapacks/autoloot/
-                        automation:
-                            title: Automation
-                            url: /minecraft/datapacks/automation/
-                        lootdrops:
-                            title: Lootdrops
-                            url: /minecraft/datapacks/lootdrops/
-                        luckyore:
-                            title: Luckyore
-                            url: /minecraft/datapacks/luckyore/
-                        mobduplicator:
-                            title: Mobduplicator
-                            url: /minecraft/datapacks/mobduplicator/
-                        permanentcuringdiscount:
-                            title: Permanentcuringdiscount
-                            url: /minecraft/datapacks/permanentcuringdiscount/
-                        randomizedskyfight:
-                            title: Randomizedskyfight
-                            url: /minecraft/datapacks/randomizedskyfight/
-                        storage:
-                            title: Storage
-                            url: /minecraft/datapacks/storage/
-                        touchtobedrock:
-                            title: TouchToBedrock
-                            url: /minecraft/datapacks/touchtobedrock/
-                        touchtofire:
-                            title: TouchToFire
-                            url: /minecraft/datapacks/touchtofire/
-                        touchtorandom:
-                            title: TouchToRandom
-                            url: /minecraft/datapacks/touchtorandom/
-        raspbeerrypi:
-            title: RaspberryPi
-            url: /raspberrypi/
-            pages:
-                minecraftserver:
-                    title: Minecraft-Server
-                    url: /raspberrypi/minecraftserver/
+                        links:
+                            title: Links
+                            url: /projects/minecraft/links
+                        datapacks:
+                            title: Datapacks
+                            url: /projects/minecraft/datapacks/
+                            pages:
+                                autoloot:
+                                    title: Autoloot
+                                    url: /projects/minecraft/datapacks/autoloot
+                                automation:
+                                    title: Automation
+                                    url: /projects/minecraft/datapacks/automation
+                                lootdrops:
+                                    title: Lootdrops
+                                    url: /projects/minecraft/datapacks/lootdrops
+                                luckyore:
+                                    title: Luckyore
+                                    url: /projects/minecraft/datapacks/luckyore
+                                mobduplicator:
+                                    title: Mobduplicator
+                                    url: /projects/minecraft/datapacks/mobduplicator
+                                permanentcuringdiscount:
+                                    title: Permanentcuringdiscount
+                                    url: /projects/minecraft/datapacks/permanentcuringdiscount
+                                randomizedskyfight:
+                                    title: Randomizedskyfight
+                                    url: /projects/minecraft/datapacks/randomizedskyfight
+                                storage:
+                                    title: Storage
+                                    url: /projects/minecraft/datapacks/storage
+                                touchtobedrock:
+                                    title: TouchToBedrock
+                                    url: /projects/minecraft/datapacks/touchtobedrock
+                                touchtofire:
+                                    title: TouchToFire
+                                    url: /projects/minecraft/datapacks/touchtofire
+                                touchtorandom:
+                                    title: TouchToRandom
+                                    url: /projects/minecraft/datapacks/touchtorandom
+                raspberrypi:
+                    title: RaspberryPi
+                    url: /projects/raspberrypi/
+                    pages:
+                        minecraftserver:
+                            title: Minecraft-Server
+                            url: /projects/raspberrypi/minecraftserver

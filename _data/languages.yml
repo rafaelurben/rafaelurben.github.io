@@ -1,0 +1,32 @@
+de:
+  footer:
+    pagestitle: Seiten
+    pages:
+      -
+        href: /
+        title: Startseite
+      -
+        href: /projects
+        title: Projekte
+      -
+        href: /contact
+        title: Kontakt
+    languagetitle: Sprachen
+    nolanguagesavailable: Keine Sprachen verfügbar
+    infos: "Lorem impsum... Ach was, das ist doch langweilig."
+en:
+  footer:
+    pagestitle: Pages
+    pages:
+      -
+        href: /en/
+        title: Home
+      -
+        href: /en/projects
+        title: Projects
+      -
+        href: /en/contact
+        title: Contact
+    languagetitle: Languages
+    nolanguagesavailable: No languages available
+    infos: "Lorem impsum... Oh c'mon, that's boring."

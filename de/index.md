@@ -1,9 +1,19 @@
 ---
-breadcrumbs: false
+permalink: /
 layout: raw
 title: Home
 subtitle: Willkommen auf meiner Webseite!
 description: Durchstöbere meine Projekte und erfahre mehr über mich.
+language: de
+languages:
+    -
+        code: en
+        href: /en/
+        title: English
+    -
+        code: de
+        href: /
+        title: Deutsch
 ---
 
 <div class="team-boxed">
@@ -22,10 +32,17 @@ description: Durchstöbere meine Projekte und erfahre mehr über mich.
                         da. Informatik ist mein grösstes Hobby und diesem widme ich auch den grössten Teil meiner
                         Freizeit. Ich erstelle gerne meine eigenen Projekte, helfe aber auch sehr gerne anderen
                         Personen bei der Verwirklichung ihrer Projekte. <a href="/about">Mehr lesen</a></p>
-                    <div class="social"><a href="https://instagram.com/rafaelurben"><i
-                                class="fab fa-instagram"></i></a><a href="https://github.com/rafaelurben"><i
-                                class="fab fa-github"></i></a><a href="mailto:contact@rafaelurben.ch"><i
-                                class="fas fa-envelope"></i></a></div>
+                    <div class="social">
+                        <a href="https://instagram.com/rafaelurben">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/rafaelurben">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:contact@rafaelurben.ch">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,7 +53,7 @@ description: Durchstöbere meine Projekte und erfahre mehr über mich.
         <div class="intro">
             <h2 class="text-center">Lieblingsprojekte</h2>
             <p class="text-center">Hier findest du meine Lieblingsprojekte. Eine Liste mit allen Projekten findest
-                du auf der Seite <a href="/projekte">Projekte</a>.</p>
+                du auf der Seite <a href="projects">Projekte</a>.</p>
         </div>
         <div class="row projects">
             <div class="col-sm-6 item">
@@ -68,6 +85,6 @@ description: Durchstöbere meine Projekte und erfahre mehr über mich.
             <p class="text-center">Hast du Fragen? Willst du mir was sagen? Hast du einen Verbesserungsvorschlag?
                 Kein Problem, kontaktiere mich einfach. :)</p>
         </div>
-        <div class="buttons"><a class="btn btn-primary" role="button" href="/kontakt">Kontaktmöglichkeiten</a></div>
+        <div class="buttons"><a class="btn btn-primary" role="button" href="/contact">Kontaktmöglichkeiten</a></div>
     </div>
 </div>
