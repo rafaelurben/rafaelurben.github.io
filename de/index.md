@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: raw
-title: Home
+title: Startseite
 subtitle: Willkommen auf meiner Webseite!
 description: Durchstöbere meine Projekte und erfahre mehr über mich.
 language: de
@@ -26,7 +26,7 @@ nobreadcrumbs: true
         </div>
         <div class="row justify-content-center people">
             <div class="col-sm-10 col-md-10 col-lg-8 col-xl-8 item">
-                <div class="box"><img class="rounded-circle" src="/assets/img/portrait.jpg">
+                <div class="box"><img class="rounded-circle" src="/assets/img/portrait-250.jpg">
                     <h3 class="name">Rafael Urben</h3>
                     <p class="title">Gymnasiast</p>
                     <p class="description">Ich bin im Jahre 2004 in der Schweiz geboren und lebe seit meiner Geburt
