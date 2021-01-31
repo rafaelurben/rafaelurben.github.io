@@ -10,4 +10,19 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      last-modified-at: 2021-01-27 18:30:00 +0100
+      last-modified-at: 2021-01-31 14:15:00 +0100
+  - 
+    scope:
+      path: "de/projects/minecraft"
+    values:
+      titlebg: "#0a9029"
+  - 
+    scope:
+      path: "en/projects/minecraft"
+    values:
+      titlebg: "#0a9029"
+  - 
+    scope:
+      path: "en"
+    values:
+      language: en

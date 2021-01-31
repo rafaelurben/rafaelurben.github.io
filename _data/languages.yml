@@ -14,6 +14,32 @@ de:
     languagetitle: Sprachen
     nolanguagesavailable: Keine Sprachen verfügbar
     infos: "Lorem impsum... Ach was, das ist doch langweilig."
+  navigation:
+    items:
+      - 
+        title: Über
+        href: /about
+      -
+        title: Kontakt
+        href: /contact
+      -
+        type: dropdown
+        title: Projekte
+        items:
+          - 
+            title: Übersicht
+            href: /projects
+          - 
+            type: divider
+          - 
+            title: Minecraft
+            href: /projects/minecraft
+          - 
+            title: Webseiten & Webapps
+            href: /projects/web
+          - 
+            title: RaspberryPi
+            href: /projects/raspberrypi
 en:
   footer:
     pagestitle: Pages
@@ -21,12 +47,6 @@ en:
       -
         href: /en/
         title: Home
-      -
-        href: /en/projects
-        title: Projects
-      -
-        href: /en/contact
-        title: Contact
     languagetitle: Languages
     nolanguagesavailable: No languages available
     infos: "Lorem impsum... Oh c'mon, that's boring."

@@ -14,6 +14,7 @@ languages:
         code: de
         href: /
         title: Deutsch
+nobreadcrumbs: true
 ---
 
 <div class="team-boxed">
@@ -78,7 +79,7 @@ languages:
         </div>
     </div>
 </div>
-<div class="highlight-blue">
+<div class="highlight">
     <div class="container">
         <div class="intro">
             <h2 class="text-center">Fragen?</h2>

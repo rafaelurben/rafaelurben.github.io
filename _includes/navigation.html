@@ -7,20 +7,29 @@
                 class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">Über</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact">Kontakt</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false"
-                        href="#">Projekte</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">1</a>
-                        <a class="dropdown-item" href="#">2</a>
-                    </div>
-                </li>
+                {% for item in lang.items %}
+                    {% if item.type == "dropdown" %}
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">{{ item.title }}</a>
+                            <div class="dropdown-menu">
+                                {% for ditem in item.items %}
+                                    {% if ditem.type == "divider" %}
+                                        <div class="dropdown-divider"></div>
+                                    {% elsif ditem.type == "header" %}
+                                        <h6 class="dropdown-header">{{ ditem.title }}</h6>
+                                    {% else %}
+                                        <a class="dropdown-item" href="{{ ditem.href }}">{{ ditem.title }}</a>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ item.href }}">{{ item.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+
                 {% if page.languages %}
                 <li class="nav-item dropdown">
                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i

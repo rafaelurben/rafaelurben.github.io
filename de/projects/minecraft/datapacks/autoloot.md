@@ -1,7 +1,8 @@
 ---
-breadcrumbs: true
+permalink: /projects/minecraft/datapacks/autoloot
+title: AutoLoot
+subtitle: Ein Minecraft Datapack
+noindex: true
 ---
 
-# Autoloot
-
-Dieses Datapack ist in Entwicklung.
+Dieses Datapack wurde bisher nicht fertig entwickelt.

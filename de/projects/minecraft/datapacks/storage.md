@@ -1,7 +1,8 @@
 ---
-breadcrumbs: true
+permalink: /projects/minecraft/datapacks/storage
+title: Storage
+subtitle: Ein Minecraft Datapack
+noindex: true
 ---
 
-# Storage
-
-Dieses Datapack ist in Entwicklung.
+Dieses Datapack wurde bisher nicht fertig entwickelt.

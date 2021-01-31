@@ -59,7 +59,6 @@ home:
                 raspberrypi:
                     title: RaspberryPi
                     url: /projects/raspberrypi/
-                    pages:
-                        minecraftserver:
-                            title: Minecraft-Server
-                            url: /projects/raspberrypi/minecraftserver
+                web:
+                    title: Webseiten und Webapps
+                    url: /projects/web/

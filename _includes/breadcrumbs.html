@@ -8,18 +8,17 @@
 "" | replace : "@",
 "" | split : "/" %}
 
-<nav id="breadcrumbs">
-    <div>
-        {% assign part = site.data.pagelist["home"] %}
+<ol id="breadcrumbs" class="breadcrumb">
+    {% assign part = site.data.pagelist["home"] %}
+    <li class="breadcrumb-item">
         <a href="{{ part.url }}">{{ part.title }}</a>
-        {% if pageid %}
-            {% for partname in pageparts %}
-                {% assign part = part.pages[partname] %}
-                <span class="arrow">
-                    >
-                </span>
-                <a {% if part.url %} href="{{ part.url | relative_url }}" {% else %} style="text-decoration: none;" {% endif %}>{{ part.title }}</a>
-            {% endfor %}
-        {% endif %}
-    </div>
-</nav>
+    </li>
+    {% if pageid %}
+        {% for partname in pageparts %}
+            {% assign part = part.pages[partname] %}
+            <li class="breadcrumb-item">
+                <a {% if part.url %} href="{{ part.url | relative_url }}" {% else %} style="text-decoration: none;" {% endif %}><span>{{ part.title }}</span></a>
+            </li>
+        {% endfor %}
+    {% endif %}
+</ol>

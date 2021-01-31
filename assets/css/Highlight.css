@@ -1,15 +1,15 @@
-.highlight-blue {
+.highlight {
   color: #fff;
   background-color: #1e6add;
   padding: 50px 0;
 }
 
-.highlight-blue p {
+.highlight p {
   color: #c4d5ef;
   line-height: 1.5;
 }
 
-.highlight-blue h2 {
+.highlight h2 {
   font-weight: normal;
   margin-bottom: 25px;
   line-height: 1.5;
@@ -18,17 +18,17 @@
   color: inherit;
 }
 
-.highlight-blue .intro {
+.highlight .intro {
   font-size: 16px;
   max-width: 500px;
   margin: 0 auto 25px;
 }
 
-.highlight-blue .buttons {
+.highlight .buttons {
   text-align: center;
 }
 
-.highlight-blue .buttons .btn {
+.highlight .buttons .btn {
   padding: 16px 32px;
   margin: 6px;
   border: none;
@@ -43,15 +43,15 @@
   line-height: 1;
 }
 
-.highlight-blue .buttons .btn:hover {
+.highlight .buttons .btn:hover {
   opacity: 1;
 }
 
-.highlight-blue .buttons .btn:active {
+.highlight .buttons .btn:active {
   transform: translateY(1px);
 }
 
-.highlight-blue .buttons .btn-primary, .highlight-blue .buttons .btn-primary:active {
+.highlight .buttons .btn-primary, .highlight .buttons .btn-primary:active {
   border: 2px solid rgba(255,255,255,0.7);
   border-radius: 6px;
   color: #ebeff1;

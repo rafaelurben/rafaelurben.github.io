@@ -3,13 +3,24 @@
 
 <head>
     {% include head.html %}
+
+    <style>
+        #title {
+            background-color: var(--red);
+            background-color: {{ page.titlebg }};
+        }   
+    </style>
 </head>
 
 <body>
     {% include navigation.html %}
 
+    {% unless page.nobreadcrumbs %}
+        {% include breadcrumbs.html %}
+    {% endunless %}
+
     {% if page.title %}
-    <div class="highlight-blue">
+    <div class="highlight" id="title">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">{{ page.title }}</h2>
