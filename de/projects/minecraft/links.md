@@ -24,7 +24,7 @@ Dies ist eine kleine Linksammlung mit diversen Tools für die Datenpaket-Entwick
 
 ##### Server & Hosting
 
-- [MC-Host24](https://mc-host24.de/)
+- [MC-Host24](https://mc-host24.de/cmp/153464) (Diverse Server und Domains; Affilate)
 - [Aternos](https://aternos.org/server/) (Gratis)
 - [Nitrado](https://server.nitrado.net/deu/gameserver-mieten)
 
