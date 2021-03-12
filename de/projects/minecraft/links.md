@@ -13,7 +13,7 @@ Dies ist eine kleine Linksammlung mit diversen Tools für die Datenpaket-Entwick
 - [Minecraft JSON](https://minecraftjson.com/) (Generator für Schilder / tellraw / Bücher etc.)
 - [Minecraft Tools](http://minecraft.tools/)
 - [Minecraft CurseForge](https://minecraft.curseforge.com/) (Mods)
-- [Minecraft CommandScience](https://minecraftcommand.science/de/prefilled-chest-generator)
+- [Minecraft CommandScience](https://minecraftcommand.science/de/)
 
 - [Minecraft Crafting Recipe Generator](https://crafting.thedestruc7i0n.ca/)
 - [Minecraft Advancements Generator](https://advancements.thedestruc7i0n.ca/)
