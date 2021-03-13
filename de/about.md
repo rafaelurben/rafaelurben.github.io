@@ -2,6 +2,7 @@
 permalink: /about
 title: Über mich
 subtitle: Finde mehr über mich heraus
+titlebg: var(--orange)
 nobreadcrumbs: true
 ---
 

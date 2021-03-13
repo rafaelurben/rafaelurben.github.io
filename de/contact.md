@@ -2,7 +2,7 @@
 permalink: /contact
 title: Kontakt
 subtitle: Nimm mit mir Kontakt auf
-titlebg: var(--orange)
+titlebg: var(--purple)
 nobreadcrumbs: true
 ---
 
