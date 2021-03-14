@@ -11,7 +11,7 @@
                     {% if item.type == "dropdown" %}
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">{{ item.title }}</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dropdown-menu-right">
                                 {% for ditem in item.items %}
                                     {% if ditem.type == "divider" %}
                                         <div class="dropdown-divider"></div>
@@ -34,7 +34,7 @@
                 <li class="nav-item dropdown">
                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i
                             class="fas fa-globe-europe"></i></a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu dropdown-menu-right">
                         {% for lang in page.languages %}
                         <a class="dropdown-item" href="{{ lang.href }}">{{ lang.title }}</a>
                         {% endfor %}
