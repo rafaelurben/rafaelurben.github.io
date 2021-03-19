@@ -4,9 +4,9 @@ title: Minecraft Links
 subtitle: Links rund ums Thema Minecraft
 ---
 
-Dies ist eine kleine Linksammlung mit diversen Tools für die Datenpaket-Entwicklung und für Server-Hosting in Minecraft.
+Dies ist eine kleine Linksammlung mit diversen Tools für die Datenpaketentwicklung und für Server & Hosting in Minecraft.
 
-##### Datenbankentwicklung
+##### Datenpaketentwicklung
 
 - [MCStacker](https://mcstacker.net/) (Command Generator)
 - [Minecraft Wiki DE](http://minecraft-de.gamepedia.com/Minecraft_Wiki) / [EN](http://minecraft.gamepedia.com/Minecraft_Wiki) (Die englische Wiki ist ausführlicher und vollständiger!)
@@ -24,7 +24,7 @@ Dies ist eine kleine Linksammlung mit diversen Tools für die Datenpaket-Entwick
 
 ##### Server & Hosting
 
-- [MC-Host24](https://mc-host24.de/cmp/153464) (Diverse Server und Domains; Affilate)
+- [MC-Host24](https://mc-host24.de/cmp/153464) (Diverse Server und Domains (a))
 - [Aternos](https://aternos.org/server/) (Gratis)
 - [Nitrado](https://server.nitrado.net/deu/gameserver-mieten)
 

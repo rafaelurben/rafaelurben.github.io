@@ -20,7 +20,7 @@
 <body>
     {% include navigation.html %}
 
-    {% unless page.nobreadcrumbs %}
+    {% if page.breadcrumbs %}
         {% include breadcrumbs.html %}
     {% endunless %}
 

@@ -4,7 +4,6 @@ title: Kontakt
 subtitle: Nimm mit mir Kontakt auf
 style:
   titlebg: var(--purple)
-nobreadcrumbs: true
 illustration: Social-Media.html
 ---
 

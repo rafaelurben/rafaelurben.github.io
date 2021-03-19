@@ -5,7 +5,6 @@ subtitle: Finde mehr über mich heraus
 style:
   titlebg: var(--orange)
   subtitlecolor: black
-nobreadcrumbs: true
 illustration: Futuristic-Work.html
 ---
 

@@ -14,7 +14,6 @@ language: de
 #         code: de
 #         href: /
 #         title: Deutsch
-nobreadcrumbs: true
 ---
 
 <div class="team-boxed">
