@@ -5,15 +5,15 @@ title: Startseite
 subtitle: Willkommen auf meiner Webseite!
 description: Durchstöbere meine Projekte und erfahre mehr über mich.
 language: de
-languages:
-    -
-        code: en
-        href: /en/
-        title: English
-    -
-        code: de
-        href: /
-        title: Deutsch
+# languages:
+#     -
+#         code: en
+#         href: /en/
+#         title: English
+#     -
+#         code: de
+#         href: /
+#         title: Deutsch
 nobreadcrumbs: true
 ---
 
@@ -34,13 +34,13 @@ nobreadcrumbs: true
                         Freizeit. Ich erstelle gerne meine eigenen Projekte, helfe aber auch sehr gerne anderen
                         Personen bei der Verwirklichung ihrer Projekte. <a href="/about">Mehr lesen</a></p>
                     <div class="social">
-                        <a href="https://instagram.com/rafaelurben">
+                        <a href="https://go.rafaelurben.ch/instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="https://github.com/rafaelurben">
+                        <a href="https://go.rafaelurben.ch/github">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="mailto:contact@rafaelurben.ch">
+                        <a href="https://go.rafaelurben.ch/mail">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>

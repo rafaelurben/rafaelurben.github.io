@@ -2,8 +2,11 @@
 permalink: /about
 title: Über mich
 subtitle: Finde mehr über mich heraus
-titlebg: var(--orange)
+style:
+  titlebg: var(--orange)
+  subtitlecolor: black
 nobreadcrumbs: true
+illustration: Futuristic-Work.html
 ---
 
 Hallo! Ich heisse Rafael, bin im Jahre 2004 geboren und lebe in der Schweiz. Ich bin ein sehr grosser Fan von Informatik, was auch den grössten Teil meiner Freizeit ausmacht. Der andere Teil meiner Freizeit verbringe ich mit trommeln. Ich spiele mit der sogenannten "Basler Trommel" in einem Verein. Aber hier geht's um den Informatik-Teil.

@@ -7,8 +7,13 @@
     <style>
         #title {
             background-color: #c60000;
-            background-color: {{ page.titlebg }};
+            background-color: {{ page.style.titlebg }};
         }   
+
+        #title p {
+            color: #c4d5ef;
+            color: {{ page.style.subtitlecolor }};
+        }
     </style>
 </head>
 
@@ -19,12 +24,12 @@
         {% include breadcrumbs.html %}
     {% endunless %}
 
-    {% if page.title %}
+    {% if page.subtitle %}
     <div class="highlight" id="title">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">{{ page.title }}</h2>
-                <p class="text-center">{{ page.subtitle }}</p>
+                <h2 id="titletext" class="text-center">{{ page.title }}</h2>
+                <p id="subtitletext" class="text-center">{{ page.subtitle }}</p>
             </div>
         </div>
     </div>
@@ -32,7 +37,12 @@
 
     {{ content }}
 
-    {% include footer.html %}
+    {% unless page.nofooter %}
+        {% include footer.html %}
+    {% endunless %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
