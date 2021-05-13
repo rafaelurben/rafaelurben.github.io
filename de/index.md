@@ -16,7 +16,7 @@ language: de
 #         title: Deutsch
 ---
 
-<div class="team-boxed">
+<div id="about" class="team-boxed">
     <div class="container">
         <div class="intro">
             <h2 class="text-center">Über mich</h2>
@@ -48,7 +48,7 @@ language: de
         </div>
     </div>
 </div>
-<div class="projects-horizontal">
+<div id="projects" class="projects-horizontal">
     <div class="container">
         <div class="intro">
             <h2 class="text-center">Lieblingsprojekte</h2>
@@ -57,28 +57,36 @@ language: de
         </div>
         <div class="row projects">
             <div class="col-sm-6 item">
-                <div class="row">
-                    <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src=""></a></div>
-                    <div class="col">
-                        <h3 class="name">KMUHelper</h3>
-                        <p class="description">Eine Buchhaltungs-Webapp für Schweizer KMU mit Generator für
-                            QR-Rechnungen.</p>
+                <a href="/kmuhelper/" class="nodeco">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                            <img class="img-fluid" src="">
+                        </div>
+                        <div class="col">
+                            <h3 class="name">KMUHelper</h3>
+                            <p class="description">Eine Buchhaltungs-Webapp für Schweizer KMU mit Generator für
+                                QR-Rechnungen.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-6 item">
-                <div class="row">
-                    <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src=""></a></div>
-                    <div class="col">
-                        <h3 class="name">Pssst...</h3>
-                        <p class="description">Dieses Projekt ist noch geheim!</p>
+                <a href="#projects" class="nodeco">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                            <img class="img-fluid" src="">
+                        </div>
+                        <div class="col">
+                            <h3 class="name">Pssst...</h3>
+                            <p class="description">Dieses Projekt ist noch geheim!</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
 </div>
-<div class="highlight">
+<div id="questions" class="highlight">
     <div class="container">
         <div class="intro">
             <h2 class="text-center">Fragen?</h2>
