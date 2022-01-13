@@ -2,7 +2,7 @@
 permalink: /
 layout: raw
 title: Startseite
-subtitle: Willkommen auf meiner Webseite!
+subtitle: Diese Webseite ist veraltet und wird in Kürze neu designt.
 description: Durchstöbere meine Projekte und erfahre mehr über mich.
 language: de
 # languages:
