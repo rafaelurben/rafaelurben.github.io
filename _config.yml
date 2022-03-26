@@ -2,6 +2,7 @@ title: Rafael Urben
 description: Eine Webseite mit Projekten von Rafael Urben
 url: https://www.rafaelurben.ch
 theme: jekyll-theme-hacker
+repository: rafaelurben/rafaelurben.github.io
 plugins:
   - jekyll-last-modified
 defaults:
