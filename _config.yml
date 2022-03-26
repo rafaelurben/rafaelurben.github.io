@@ -1,5 +1,5 @@
 title: Rafael Urben
-description: Dokumentationen zu meinen Projekten
+description: Eine Webseite mit Projekten von Rafael Urben
 url: https://www.rafaelurben.ch
 plugins:
   - jekyll-last-modified
@@ -11,20 +11,3 @@ defaults:
     values:
       layout: "default"
       last-modified-at: 2021-02-04 12:30:00 +0100
-  - 
-    scope:
-      path: "de/projects/minecraft"
-    values:
-      style:
-        titlebg: "#0a9029"
-  - 
-    scope:
-      path: "en/projects/minecraft"
-    values:
-      style: 
-        titlebg: "#0a9029"
-  - 
-    scope:
-      path: "en"
-    values:
-      language: en

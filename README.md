@@ -2,4 +2,4 @@
 
 This is the source code for my [website](https://rafaelurben.github.io).
 
-This page is outdated. It will be redesigned soon.
+The old website is outdated. The development of the new site will take place in this branch.
