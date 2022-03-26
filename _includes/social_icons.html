@@ -1,0 +1,9 @@
+<div class="social_links">
+    {% for platform in site.data.social_links %}
+        {% unless platform.hidden %}
+            <a href="{{ platform.url }}" title="{{ platform.name }}" style="--hover-color: {{ platform.color }};">
+                <i class="{{ platform.icon }}"></i>
+            </a>
+        {% endunless %}
+    {% endfor %}
+</div>

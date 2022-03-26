@@ -1,0 +1,25 @@
+/* Social Links */
+
+.social_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.social_links a {
+    margin: 0 0.5rem;
+    color: white;
+    transition-duration: 0.25s;
+    font-size: 1.2rem;
+}
+
+.social_links a:hover {
+    color: var(--hover-color);
+}
+
+/* Footer */
+
+.footer {
+    margin: 2rem;
+}
