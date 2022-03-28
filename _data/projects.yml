@@ -1,0 +1,35 @@
+django-kmuhelper:
+  title: django-kmuhelper
+  subtitle: Eine Buchhaltungs-Webapp mit QR-Rechnungen für Schweizer KMU
+  githuburl: https://github.com/rafaelurben/django-kmuhelper
+  url: https://www.rafaelurben.ch/django-kmuhelper/
+  state_project: stable
+  state_dev: passive
+django-discordbot:
+  title: django-discordbot
+  subtitle: Ein Discordbot in Verbingung mit Django
+  githuburl: https://github.com/rafaelurben/django-discordbot
+  state_project: stable
+  state_dev: paused
+erbrechner:
+  title: Erbrechner
+  subtitle: Ein Erbrechner nach dem Schweizer ZGB
+  githuburl: https://github.com/rafaelurben/erbrechner
+  url: https://rafaelurben.ch/erbrechner/
+  state_project: finished
+  state_dev: 
+autohotkey-utils:
+  title: autohotkey-utils
+  subtitle: Ein mit AutoHotkey erstelltes Shortcut-Tool für den täglichen Gebrauch
+  githuburl: https://github.com/rafaelurben/autohotkey-utils
+  state_project: stable
+  state_dev: passive
+raspberrypi-minecraftserver:
+  title: raspberrypi-minecraftserver
+  subtitle: Ein Minecraft-Server auf dem Raspberry Pi
+  githuburl: https://github.com/rafaelurben/raspberrypi-minecraftserver
+  description: >
+    Es kann sehr kompliziert sein, auf dem RaspberryPi einen Minecraft-Server zu hosten und 
+    Backups zu erstellen. Deshalb habe ich dieses kleine Hilfstool erstellt.
+  state_project: outdated
+  state_dev: ended

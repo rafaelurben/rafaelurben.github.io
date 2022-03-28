@@ -1,0 +1,50 @@
+categories:
+  - title: Webseiten, Webapps und co.
+    projects:
+      - django-kmuhelper
+      - django-discordbot
+      - erbrechner
+  - title: Apps & Tools
+    projects:
+      - autohotkey-utils
+  - title: Spielerweiterungen
+    projects:
+      - 
+  - title: Unkategorisiert
+    projects:
+      - raspberrypi-minecraftserver
+states_project:
+  - title: finished
+    description: Das Projekt ist abgeschlossen und funktioniert wie erwartet.
+    color: darkgreen
+  - title: stable
+    description: Das Projekt ist stabil und funktioniert gut.
+    color: lightgreen
+  - title: beta
+    description: Das Projekt ist noch instabil aber hat bereits einen Grossteil der geplanten Funktionen.
+    color: yellow
+  - title: alpha
+    description: Das Projekt ist noch instabil und hat erste wenige Funktionen.
+    color: orange
+  - title: dev
+    description: Das Projekt ist noch in der Entwicklungsphase und ist noch nicht brauchbar.
+    color: red
+  - title: outdated
+    description: Das Projekt ist veraltet.
+    color: darkred
+states_dev:
+  - title: ended
+    description: Das Projekt ist fertig entwickelt.
+    color: darkgreen
+  - title: active
+    description: Das Projekt wird aktiv weiterentwickelt.
+    color: lighgreen
+  - title: passive
+    description: Das Projekt wird passiv weiterentwickelt.
+    color: yellow
+  - title: paused
+    description: Das Projekt ist pausiert und wird derzeit nicht weiterentwickelt.
+    color: orange
+  - title: abandoned
+    description: Das Projekt wurde aufgegeben/vernachlässigt.
+    color: red
