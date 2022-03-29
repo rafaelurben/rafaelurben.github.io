@@ -49,13 +49,13 @@ states_dev:
     color: darkgreen
   - title: active
     description: Das Projekt wird aktiv weiterentwickelt.
-    color: lighgreen
+    color: yellow
   - title: passive
     description: Das Projekt wird passiv weiterentwickelt.
-    color: yellow
-  - title: paused
-    description: Das Projekt ist pausiert und wird derzeit nicht weiterentwickelt.
     color: orange
   - title: abandoned
     description: Das Projekt wurde aufgegeben/vernachlässigt.
     color: red
+  - title: paused
+    description: Das Projekt ist pausiert und wird derzeit nicht weiterentwickelt.
+    color: gray
