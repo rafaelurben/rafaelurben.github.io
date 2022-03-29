@@ -9,7 +9,18 @@ categories:
       - autohotkey-utils
   - title: Spielerweiterungen
     projects:
-      - 
+      - mc-randomized-skyfight
+      - mc-lootdrops
+      - mc-touchtofire
+      - mc-touchtorandom
+      - mc-touchtobedrock
+      - mc-mobduplicator
+      - mc-luckyore
+      - mc-permanentcuringdiscount
+      - mc-autoloot
+      - mc-automation
+      - mc-elevators
+      - mc-storage
   - title: Unkategorisiert
     projects:
       - raspberrypi-minecraftserver

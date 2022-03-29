@@ -33,3 +33,75 @@ raspberrypi-minecraftserver:
     Backups zu erstellen. Deshalb habe ich dieses kleine Hilfstool erstellt.
   state_project: outdated
   state_dev: ended
+mc-randomized-skyfight:
+  title: mc-randomized-skyfight
+  subtitle: Ein Spiel in Minecraft Vanilla (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-randomizedskyfight
+  state_project: finished
+  state_dev: ended
+mc-lootdrops:
+  title: mc-lootdrops
+  subtitle: Lootdrops in Minecraft Vanilla (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-lootdrops
+  state_project: finished
+  state_dev: ended
+mc-touchtofire:
+  title: mc-touchtofire
+  subtitle: Alles, was berührt wird, geht in Flammen auf (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-touchtofire
+  state_project: finished
+  state_dev: ended
+mc-touchtorandom:
+  title: mc-touchtorandom
+  subtitle: Alles, was berührt wird, verwandelt sich in einen zufälligen Block (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-touchtorandom
+  state_project: finished
+  state_dev: ended
+mc-touchtobedrock:
+  title: mc-touchtobedrock
+  subtitle: Alles, was berührt wird, geht in Flammen auf (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-touchtobedrock
+  state_project: finished
+  state_dev: ended
+mc-mobduplicator:
+  title: mc-mobduplicator
+  subtitle: Jeder berührte Mob dupliziert sich (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-mobduplicator
+  state_project: finished
+  state_dev: ended
+mc-luckyore:
+  title: mc-luckyore
+  subtitle: Ein Luckyblock Alternative in Minecraft Vanilla (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-luckyore
+  state_project: finished
+  state_dev: ended
+mc-permanentcuringdiscount:
+  title: mc-permanentcuringdiscount
+  subtitle: Ein Versuch, Heilungsrabatte von Dorfbewohnern für alle permanent zugänglich zu machen (Datapack commission)
+  githuburl: https://github.com/rafaelurben/mc-permanentcuringdiscount
+  state_project: finished
+  state_dev: ended
+mc-autoloot:
+  title: mc-autoloot
+  subtitle: Ein Autoloot-Tool für Minecraft Vanilla (Datapack)
+  githuburl: https://github.com/rafaelurben/mc-autoloot
+  state_project: outdated
+  state_dev: abandoned
+mc-automation:
+  title: mc-automation
+  subtitle: Diverse "Maschinen" und Tools für Minecraft Vanilla (Datapack)
+  githuburl: https://github.com/rafaelurben/mc-automation
+  state_project: beta
+  state_dev: abandoned
+mc-elevators:
+  title: mc-elevators
+  subtitle: Minecart-Fahrstühle in Minecraft Vanilla (Datapack)
+  githuburl: https://github.com/rafaelurben/mc-elevators
+  state_project: alpha
+  state_dev: abandoned
+mc-storage:
+  title: mc-storage
+  subtitle: Ein Lagersystem für Minecraft Vanilla (Datapack)
+  githuburl: https://github.com/rafaelurben/mc-automation
+  state_project: dev
+  state_dev: abandoned
