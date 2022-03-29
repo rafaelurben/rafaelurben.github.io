@@ -24,7 +24,7 @@ categories:
   - title: Unkategorisiert
     projects:
       - raspberrypi-minecraftserver
-states_project:
+statuss_project:
   - title: finished
     description: Das Projekt ist abgeschlossen und funktioniert wie erwartet.
     color: darkgreen
@@ -43,7 +43,7 @@ states_project:
   - title: outdated
     description: Das Projekt ist veraltet.
     color: darkred
-states_dev:
+statuss_dev:
   - title: ended
     description: Das Projekt ist fertig entwickelt.
     color: darkgreen
