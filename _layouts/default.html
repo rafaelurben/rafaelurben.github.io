@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="en">
 
 <head>
     {% include head.html %}
@@ -8,34 +8,54 @@
 <body>
 
     <header>
-        <div class="container">
-            <a id="a-title" href="{{ '/' | relative_url }}">
-                <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            </a>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-            <section id="downloads">
-                {% if site.show_downloads %}
-                <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-                <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-                {% endif %}
-                <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on
-                    GitHub</a>
-            </section>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Rafael Urben</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-pages"
+                    aria-controls="nav-pages" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-pages">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">
+                                <span lang="en">About Me</span>
+                                <span lang="de">Über mich</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/projects">
+                                <span lang="en">Projects</span>
+                                <span lang="de">Projekte</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">
+                                <span lang="en">Contact</span>
+                                <span lang="de">Kontakt</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        {% include nav/toggle_language.html %}
+                        {% include nav/toggle_appearance.html %}
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <div class="container">
+    <main class="container">
         <section id="main_content">
             {{ content }}
         </section>
-    </div>
+    </main>
 
     <hr>
 
-    <div class="footer">
+    <footer class="footer">
         {% include social_icons.html %}
-    </div>
+    </footer>
 </body>
 
 </html>

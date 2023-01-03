@@ -1,3 +1,27 @@
+/* Main */
+
+body {
+    min-height: 100vh;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+}
+
+/* Header */
+
+nav .dropdown-menu .active .onactive {
+    display: block !important;
+}
+
+/* Language */
+
+html[lang="en"] [lang]:not([lang="en"]) {
+    display: none;
+}
+
+html[lang="de"] [lang]:not([lang="de"]) {
+    display: none;
+}
+
 /* Social Links */
 
 .social_links {
@@ -9,7 +33,7 @@
 
 .social_links a {
     margin: 0 0.5rem;
-    color: white;
+    color: var(--bs-body-color);
     transition-duration: 0.25s;
     font-size: 1.2rem;
 }
