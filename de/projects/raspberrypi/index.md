@@ -8,6 +8,6 @@ Ich habe mich vor einiger Zeit ein RaspberryPi 4B (4GB) gekauft. Dies benutze ic
 
 #### Minecraft Server
 
-Es kann sehr kompliziert sein, auf dem RaspberryPi einen Minecraft-Server zu hosten und Backups zu erstellen. Deshalb habe ich dieses kleine Hilfstool erstellt.
+Minecraft-Server auf dem RaspberryPi? Wenn auch nicht empfohlen, dass ist möglich! Hier ein kleines Hilfstool:
 
 Anleitung und Download [hier](https://github.com/rafaelurben/raspberrypi-minecraftserver).

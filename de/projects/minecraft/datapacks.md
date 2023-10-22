@@ -28,4 +28,4 @@ Ideen von anderen Leuten:
 
 ~~Besucht mich auf [Fiverr](https://www.fiverr.com/rafaelurben/make-you-a-minecraft-datapack) und ihr könnt mich für wenig Geld beauftragen, ein Datapack zu erstellen.~~ Falls ihr noch keinen Fiverr Account habt, könnt ihr euch unter [diesem Link (a)](http://www.fiverr.com/s2/badfda4d0a) registrieren und ihr erhaltet 20% Rabatt auf eure erste Bestellung.
 
-**Hinweis: Ich mache zurzeit keine Datapacks mehr, da ich gerade nicht mehr Lust auf Minecraft habe.**
+**Hinweis: Ich mache keine Datapacks mehr.**

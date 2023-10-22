@@ -6,10 +6,9 @@ subtitle: Von mir erstellte Webseiten und Webapps
 
 ### Webseiten
 
-Ich baue Webseiten aktuell mit [Bootstrapstudio](https://bootstrapstudio.io) und Jekyll (via Github Pages).
+Ich baue Webseiten aktuell mit Bootstrap und Jekyll (via Github Pages).
 
 - Diese Webseite
-- [redoxschweiz.ch](https://redoxschweiz.ch)
 - [rafaelurben.ch/kmuhelper](https://rafaelurben.ch/kmuhelper)
 
 ### Webapps
@@ -23,5 +22,5 @@ Bisher habe ich mich betreffend serverseitigen Webapps hauptsächlich mit Django
 
 Clientseitige Webapps, also Webapps welche direkt im Browser des Clients ausgeführt werden, befinden sich hier:
 
-- [singlepageapps](https://rafaelurben.ch/singlepageapps)
-  - Diverse kleine, clientseitige Webapps (darunter z.B. ein Erbrechner)
+- [erbrechner](https://rafaelurben.ch/rafaelurben/erbrechner)
+  - Erbrechner (Erbe berechnen nach Schweizer Gesetz)
