@@ -54,7 +54,7 @@ language: de
         </div>
         <div class="row projects">
             <div class="col-sm-6 item">
-                <a href="/kmuhelper/" class="nodeco">
+                <a href="https://rafaelurben.ch/kmuhelper" class="nodeco">
                     <div class="row">
                         <div class="col-md-12 col-lg-5">
                             <img class="img-fluid" src="/assets/img/projects/kmuhelper.png">

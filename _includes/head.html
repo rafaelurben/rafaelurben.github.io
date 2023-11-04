@@ -14,11 +14,11 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/icon-512x512.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+    integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-<link rel="stylesheet" href="/assets/css/Footer-Dark.css">
 <link rel="stylesheet" href="/assets/css/Highlight.css">
-<link rel="stylesheet" href="/assets/css/Navigation-Clean.css">
 <link rel="stylesheet" href="/assets/css/Projects-Horizontal.css">
 <link rel="stylesheet" href="/assets/css/styles.css">
 <link rel="stylesheet" href="/assets/css/Team-Boxed.css">
@@ -32,3 +32,5 @@
 {% for lang in page.languages %}
 <link rel="alternative" hreflang="{{ lang.code }}" href="{{ lang.href }}" />
 {% endfor %}
+
+<script src="/assets/js/autodarkmode.js"></script>

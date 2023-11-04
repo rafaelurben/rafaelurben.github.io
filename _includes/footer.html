@@ -1,57 +1,48 @@
 {% assign language = page.language | default: "de" %}
 {% assign lang = site.data.languages[language].footer %}
 
-<div class="footer-dark">
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>{{ lang.pagestitle }}</h3>
-                    <ul>
-                        {% for page in lang.pages %}
-                        <li><a href="{{ page.href }}">{{ page.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>{{ lang.languagetitle }}</h3>
-                    <ul>
-                        {% for lang in page.languages %}
-                        <li><a href="{{ lang.href }}">{{ lang.title }}</a></li>
-                        {% else %}
-                        <li><a>{{ lang.nolanguagesavailable }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>Rafael Urben</h3>
-                    <p>{{ lang.infos }}</p>
-                </div>
-                <div class="col item social">
-                    <a href="https://go.rafaelurben.ch/github">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://go.rafaelurben.ch/mail">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://go.rafaelurben.ch/instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://go.rafaelurben.ch/discord">
-                        <i class="fab fa-discord"></i>
-                    </a>
-                    <a href="https://go.rafaelurben.ch/youtube">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="https://go.rafaelurben.ch/patreon">
-                        <i class="fab fa-patreon"></i>
-                    </a>
-                    <!-- <a href="https://go.rafaelurben.ch/twitch">
-                        <i class="fab fa-twitch"></i>
-                    </a> -->
-                </div>
-            </div>
-            <p class="copyright">Rafael Urben © 2021-2023</p>
+<div class="footercontainer container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a> -->
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2021-2023 Rafael Urben</span>
         </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://go.rafaelurben.ch/github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://go.rafaelurben.ch/mail">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://go.rafaelurben.ch/instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://go.rafaelurben.ch/discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://go.rafaelurben.ch/youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://go.rafaelurben.ch/patreon">
+                    <i class="fab fa-patreon"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
 </div>

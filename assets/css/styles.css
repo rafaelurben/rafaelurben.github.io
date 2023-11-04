@@ -1,19 +1,22 @@
-.content {
-    padding: 25px 0;
-    background-color: white;
-}
-
 #breadcrumbs {
     margin-bottom: 0;
     border-radius: 0;
 }
 
-body {
-    background-color: #282d32;
-    overflow-x: hidden;
-}
-
 a.nodeco {
     text-decoration: none;
-    color: initial;
+    color: unset;
+}
+
+/* Make footer sticky */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+}
+
+.footercontainer {
+    margin-top: auto;
 }

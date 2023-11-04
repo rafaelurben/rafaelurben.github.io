@@ -3,7 +3,7 @@ permalink: /about
 title: Über mich
 subtitle: Finde mehr über mich heraus
 style:
-  titlebg: var(--orange)
+  titlebg: var(--bs-orange)
   subtitlecolor: black
 ---
 

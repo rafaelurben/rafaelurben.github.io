@@ -1,20 +1,20 @@
 {% assign language = page.language | default: "de" %}
 {% assign lang = site.data.languages[language].navigation %}
 
-<nav class="navbar navbar-light navbar-expand-md navigation-clean">
-    <div class="container">
-        <a class="navbar-brand" href="/">Rafael Urben</a>
-        <button data-toggle="collapse" class="navbar-toggler" data-target="#navigation">
+<nav class="navbar navbar-expand-md">
+    <div class="container my-2">
+        <a class="navbar-brand fw-bold" href="/">Rafael Urben</a>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navigation">
-            <ul class="nav navbar-nav ml-auto">
+            <ul class="nav navbar-nav ms-auto">
                 {% for item in lang.items %}
                     {% if item.type == "dropdown" %}
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">{{ item.title }}</a>
-                            <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">{{ item.title }}</a>
+                            <div class="dropdown-menu dropdown-menu-end">
                                 {% for ditem in item.items %}
                                     {% if ditem.type == "divider" %}
                                         <div class="dropdown-divider"></div>
@@ -35,9 +35,10 @@
 
                 {% if page.languages %}
                 <li class="nav-item dropdown">
-                    <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i
-                            class="fas fa-globe-europe"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                        <i class="fas fa-globe-europe"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end">
                         {% for lang in page.languages %}
                         <a class="dropdown-item" href="{{ lang.href }}">{{ lang.title }}</a>
                         {% endfor %}

@@ -1,19 +1,4 @@
 de:
-  footer:
-    pagestitle: Seiten
-    pages:
-      -
-        href: /
-        title: Startseite
-      -
-        href: /projects
-        title: Projekte
-      -
-        href: /contact
-        title: Kontakt
-    languagetitle: Sprachen
-    nolanguagesavailable: Keine Sprachen verfügbar
-    infos: "Lorem impsum... Ach was, das ist doch langweilig."
   navigation:
     items:
       - 
@@ -40,13 +25,3 @@ de:
           - 
             title: RaspberryPi
             href: /projects/raspberrypi
-en:
-  footer:
-    pagestitle: Pages
-    pages:
-      -
-        href: /en/
-        title: Home
-    languagetitle: Languages
-    nolanguagesavailable: No languages available
-    infos: "Lorem impsum... Oh c'mon, that's boring."
