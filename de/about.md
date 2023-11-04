@@ -5,7 +5,6 @@ subtitle: Finde mehr über mich heraus
 style:
   titlebg: var(--orange)
   subtitlecolor: black
-illustration: Futuristic-Work.html
 ---
 
 Hallo! Ich heisse Rafael, bin im Jahre 2004 geboren und lebe in der Schweiz. Ich bin ein sehr grosser Fan von Informatik, was auch den grössten Teil meiner Freizeit ausmacht. Der andere Teil meiner Freizeit verbringe ich mit trommeln. Ich spiele mit der sogenannten "Basler Trommel" in einem Verein. Aber hier geht's um den Informatik-Teil. Aktuell studiere ich Informatik an der [FFHS (Fernfachhochschule Schweiz)](https://www.ffhs.ch/de).
