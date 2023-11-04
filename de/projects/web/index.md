@@ -22,5 +22,5 @@ Bisher habe ich mich betreffend serverseitigen Webapps hauptsächlich mit Django
 
 Clientseitige Webapps, also Webapps welche direkt im Browser des Clients ausgeführt werden, befinden sich hier:
 
-- [erbrechner](https://rafaelurben.ch/rafaelurben/erbrechner)
+- [erbrechner](https://rafaelurben.ch/erbrechner)
   - Erbrechner (Erbe berechnen nach Schweizer Gesetz)
