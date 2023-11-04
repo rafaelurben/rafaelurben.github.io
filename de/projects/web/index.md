@@ -4,19 +4,14 @@ title: Webseiten und Webapps
 subtitle: Von mir erstellte Webseiten und Webapps
 ---
 
-### Webseiten
-
-Ich baue Webseiten aktuell mit Bootstrap und Jekyll (via Github Pages).
-
-- Diese Webseite
-- [rafaelurben.ch/kmuhelper](https://rafaelurben.ch/kmuhelper)
-
 ### Webapps
 
 Bisher habe ich mich betreffend serverseitigen Webapps haupts채chlich mit Django besch채ftigt, deshalb gibt es hier bisher nur Django-Apps.
 
+- [django-teamized](https://app.rafaelurben.ch/teamized)
+  - Eine App f체r Teamverwaltung und co. (meine Maturaarbeit)
 - [django-kmuhelper](https://rafaelurben.ch/django-kmuhelper)
-  - Eine Buchhaltungsapp f체r Schweizer KMU
+  - Eine Eine Bestellungs- und Kundenverwaltungs-Webapp f체r Schweizer KMU
 - [django-discordbot](https://github.com/rafaelurben/django-discordbot)
   - Ein Discordbot in Verbingung mit Django
 
@@ -24,3 +19,10 @@ Clientseitige Webapps, also Webapps welche direkt im Browser des Clients ausgef�
 
 - [erbrechner](https://rafaelurben.ch/erbrechner)
   - Erbrechner (Erbe berechnen nach Schweizer Gesetz)
+
+### Webseiten
+
+Ich baue Webseiten aktuell mit Bootstrap und Jekyll (via Github Pages).
+
+- Diese Webseite
+- [rafaelurben.ch/kmuhelper](https://rafaelurben.ch/kmuhelper)

@@ -61,7 +61,7 @@ language: de
                         </div>
                         <div class="col">
                             <h3 class="name">KMUHelper</h3>
-                            <p class="description">Eine Buchhaltungs-Webapp für Schweizer KMU mit Generator für
+                            <p class="description">Eine Bestellungs- und Kundenverwaltungs-Webapp für Schweizer KMU mit Generator für
                                 QR-Rechnungen.</p>
                         </div>
                     </div>
