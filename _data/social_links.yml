@@ -3,34 +3,23 @@
   url: https://go.rafaelurben.ch/github
   icon: fa-brands fa-github
   color: rgb(244, 203, 178)
-- 
+-
+  name: Linkedin
+  url: https://linkedin.com/in/rafaelurben
+  icon: fa-brands fa-linkedin
+  color: rgb(0, 119, 181)
+-
+  name: Patreon
+  url: https://patreon.com/rafaelurben
+  icon: fa-brands fa-patreon
+  color: rgb(255, 104, 113)
+-
   name: E-Mail
   url: https://go.rafaelurben.ch/email
   icon: fa-solid fa-envelope
   color: rgb(180, 180, 180)
-- 
-  name: Instagram
-  url: https://go.rafaelurben.ch/instagram
-  icon: fa-brands fa-instagram
-  color: rgb(255, 48, 108)
 -
-  name: Discord
+  name: Discord Server
   url: https://go.rafaelurben.ch/discord
   icon: fa-brands fa-discord
   color: rgb(88, 101, 242)
-- 
-  name: YouTube
-  url: https://go.rafaelurben.ch/youtube
-  icon: fa-brands fa-youtube
-  color: rgb(255, 0, 0)
-  hidden: true
-- 
-  name: Twitch
-  url: https://go.rafaelurben.ch/twitch
-  icon: fa-brands fa-twitch
-  hidden: true
--
-  name: Patreon
-  url: https://go.rafaelurben.ch/patreon
-  icon: fa-brands fa-patreon
-  color: rgb(255, 104, 113)
