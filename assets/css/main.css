@@ -61,6 +61,14 @@ header, footer, main {
     padding: 0.5em 0;
 }
 
+main {
+    flex-grow: 1;
+
+    & .container {
+        height: 100%;
+    }
+}
+
 header {
     border-bottom: 1px solid var(--accent);
     position: sticky;
@@ -168,7 +176,6 @@ header {
 
 footer {
     border-top: 1px solid var(--accent);
-    margin-top: auto;
 
     & > .container {
         display: flex;
@@ -263,6 +270,13 @@ hr {
     &:hover {
         filter: brightness(0.75);
     }
+}
+
+.center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Breakpoints */
