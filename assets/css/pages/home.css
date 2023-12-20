@@ -46,6 +46,10 @@
         text-align: left;
         padding: 0;
 
+        #img-container {
+            flex-basis: 50%;
+        }
+
         & #btn-container {
             justify-content: flex-start !important;
         }
