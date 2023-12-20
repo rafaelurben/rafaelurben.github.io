@@ -30,6 +30,11 @@
         flex-flow: column nowrap;
         gap: 1em;
 
+        & #pretitle {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
         & #btn-container {
             display: flex;
             flex-flow: row nowrap;

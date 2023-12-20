@@ -42,6 +42,7 @@ html, body {
     width: 100vw;
     height: 100vh; /* fallback */
     height: 100dvh;
+    overflow-x: hidden; /* fixes a bug in Firefox involving the y-scrollbar */
 
     background-color: var(--background);
     color: var(--text);
@@ -93,14 +94,14 @@ header {
             &::before {
                 content: "{";
                 position: absolute;
-                left: -0.65em;
+                right: calc(100% + 0.15em);
                 color: var(--weak);
             }
 
             &::after {
                 content: "}";
                 position: absolute;
-                right: -0.65em;
+                left: calc(100% + 0.15em);
                 color: var(--weak);
             }
         }
@@ -144,29 +145,39 @@ header {
                         &::before {
                             content: "<";
                             position: absolute;
-                            left: -0.65em;
+                            right: calc(100% + 0.15em);
                             color: var(--weak);
                         }
 
                         &::after {
                             content: ">";
                             position: absolute;
-                            right: -0.65em;
+                            left: calc(100% + 0.15em);
                             color: var(--weak);
                         }
 
                         &.current {
                             color: var(--accent);
+
+                            &::after {
+                                content: "/>";
+                            }
                         }
                     }
 
-                    &:hover::after {
+                    &::after {
                         content: " ";
                         position: absolute;
                         bottom: -0.1em;
+                        left: 50%;
+                        width: 0;
+                        border-bottom: 1px solid white;
+                        transition: all 0.2s ease-in-out;
+                    }
+
+                    &:hover::after {
                         left: 0;
                         width: 100%;
-                        border-bottom: 1px solid white;
                     }
                 }
             }
@@ -222,14 +233,16 @@ body.nav-hidden {
 
 /* Elements */
 
-h3 {
+h2, h3, h4, h5, h6 {
     position: relative;
+    margin: 0.75em 0 0.25em;
 
     &::before {
         content: "#";
         position: absolute;
         left: -1.25em;
         color: var(--weak);
+        font-weight: normal;
     }
 }
 
@@ -247,6 +260,10 @@ a {
     &:hover {
         filter: brightness(0.75);
     }
+}
+
+p {
+    margin: 0.5em 0;
 }
 
 /* Utils */
@@ -309,7 +326,7 @@ a {
 
 @media (min-width: 979px) {
     .container {
-        max-width: calc(950px - 3.5em);
+        max-width: calc(930px - 3.5em);
     }
 
     header > .container {
