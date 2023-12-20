@@ -45,7 +45,7 @@
     }
 }
 
-@media (min-width: 979px) {
+@media (orientation: landscape) {
     #home-container {
         flex-direction: row;
         text-align: left;
