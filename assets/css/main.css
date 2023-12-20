@@ -282,6 +282,7 @@ p {
     text-decoration: none;
     border-radius: 0.5rem;
     filter: brightness(1);
+    border: none;
 
     &.primary {
         color: var(--background);

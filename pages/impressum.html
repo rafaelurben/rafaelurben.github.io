@@ -2,4 +2,33 @@
 layout: default
 permalink: /impressum/
 title: Impressum
+stylesheets:
+- /assets/css/forms.css
+scripts:
+- /assets/js/contactform.js
 ---
+
+<h3>Urheber</h3>
+
+<p>
+    Diese Seite wurde von mir persönlich erstellt. Alle Inhalte gehören mir, ausgenommen Icons (FontAwesome).
+</p>
+
+<h3>Kontakt</h3>
+
+<p>E-Mail: <a href="mailto:dev@rafaelurben.ch">dev@rafaelurben.ch</a></p>
+
+<h3>Kontaktformular</h3>
+
+<form onsubmit="event.preventDefault(); submitContactForm();" id="contact-form">
+    <label for="form-contact-name">Dein Name:</label>
+    <input type="text" id="form-contact-name" required />
+    <label for="form-contact-email">Deine E-Mail-Adresse:</label>
+    <input type="email" id="form-contact-email" required />
+    <label for="form-contact-message">Deine Nachricht:</label>
+    <textarea id="form-contact-message" required></textarea>
+    <div class="button-row">
+        <button class="btn secondary" type="reset">Formular leeren</button>
+        <button class="btn primary" type="submit" onclick="validateContactForm()">E-Mail senden</button>
+    </div>
+</form>

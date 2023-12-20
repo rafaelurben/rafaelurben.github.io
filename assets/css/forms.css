@@ -1,0 +1,36 @@
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75em 1.25em;
+
+    & input, & textarea {
+        border: 1px solid var(--weak);
+        border-radius: 5px;
+        background-color: var(--background);
+        color: var(--text);
+        padding: 0.25em 0.4em;
+    }
+
+    & .button-row {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        justify-content: flex-end;
+    }
+
+    &.validated {
+        & input:invalid, & textarea:invalid {
+            border-color: red;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    form {
+        grid-template-columns: max-content 1fr;
+
+        & .button-row {
+            grid-column: 2;
+        }
+    }
+}
