@@ -1,0 +1,53 @@
+#home-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+
+    & #img-container {
+        width: 75%;
+        flex-grow: 0;
+        flex-shrink: 1;
+
+        & #img {
+            aspect-ratio: 1;
+            border-radius: 50%;
+
+            background-image: url("/assets/img/portrait-250.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    & #col-container {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1em;
+
+        & #btn-container {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            gap: 0.5em;
+            margin-top: 0.5em;
+        }
+    }
+}
+
+@media (min-width: 979px) {
+    #home-container {
+        flex-direction: row;
+        text-align: left;
+        padding: 0;
+
+        & #btn-container {
+            justify-content: flex-start !important;
+        }
+    }
+}
