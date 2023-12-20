@@ -4,18 +4,57 @@
 <head>
     {% include head.html %}
 </head>
-<body>
+<body class="nav-hidden">
 
 <header>
-
+    <div class="container">
+        <a id="page-title" href="/">Rafael&nbsp;Urben</a>
+        <div id="nav-toggler" onclick="toggleNavigation()">
+            <span></span>
+        </div>
+        <nav id="main-nav">
+            <hr class="mobile-only" />
+            <ul>
+                <li>
+                    <a href="/">Startseite</a>
+                </li>
+                <li>
+                    <a href="/about">Über mich</a>
+                </li>
+                <li>
+                    <a href="/projects">Projekte</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
-
+    <div class="container">
+        {{ content }}
+    </div>
 </main>
 
-<footer class="footer">
-    {% include social_icons.html %}
+<footer>
+    <div class="container">
+        <div class="copyright-info">
+            (c) Rafael Urben - 2023
+        </div>
+        <nav id="social_links">
+            <ul>
+                {% for platform in site.data.social_links %}
+                <li>
+                    <a href="{{ platform.url }}" title="{{ platform.name }}" style="--hover-color: {{ platform.color }};" target="_blank">
+                        <i class="{{ platform.icon }}"></i>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
 </footer>
 
 </body>
