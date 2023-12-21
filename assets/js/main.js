@@ -6,6 +6,6 @@ function toggleNavigation() {
 
 /* Onload */
 
-window.addEventListener('load', () => {
-    document.querySelector("a[href*='" + location.pathname + "']").classList.add("current");
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector("nav a[href='" + location.pathname + "']").classList.add("current");
 })
