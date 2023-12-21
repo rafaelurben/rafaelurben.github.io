@@ -1,6 +1,6 @@
 django-teamized:
   title: django-teamized
-  subtitle: Eine Buchhaltungs-Webapp mit QR-Rechnungen für Schweizer KMU
+  subtitle: Ein Tool für Zeitmanagement, Projektplanung & Vereinsverwaltung
   githuburl: https://github.com/rafaelurben/django-teamized
   url: https://app.rafaelurben.ch/teamized/
   status_project: stable
@@ -9,7 +9,7 @@ django-teamized:
     - web
 django-kmuhelper:
   title: django-kmuhelper
-  subtitle: Eine Buchhaltungs-Webapp mit QR-Rechnungen für Schweizer KMU
+  subtitle: Eine Bestellungsverwaltungs-Webapp mit QR-Rechnungen für Schweizer KMU
   githuburl: https://github.com/rafaelurben/django-kmuhelper
   url: https://www.rafaelurben.ch/django-kmuhelper/
   status_project: stable

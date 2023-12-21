@@ -82,9 +82,12 @@ layout: null
             & .description {
                 font-size: 0.85em;
                 color: var(--weak);
+                margin-bottom: 0.8em;
             }
 
             & .badges {
+                font-size: 0.8em;
+
                 display: flex;
                 flex-direction: row;
                 margin-top: auto;
