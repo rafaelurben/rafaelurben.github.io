@@ -42,25 +42,25 @@ dev_status:
   ended:
     title: Beendet
     description: Die Entwicklung wurde beendet.
-    bg-color: darkgreen
+    bg-color: "#446CCF"
     fg-color: white
   active:
     title: Aktiv
     description: Das Projekt wird aktiv weiterentwickelt.
-    bg-color: yellow
+    bg-color: "#0AFFFF"
     fg-color: black
   passive:
     title: Passiv
     description: Das Projekt wird passiv weiterentwickelt.
-    bg-color: orange
-    fg-color: white
+    bg-color: "#6BCAE2"
+    fg-color: black
   paused:
     title: Pausiert
     description: Das Projekt ist pausiert und wird derzeit nicht weiterentwickelt.
-    bg-color: gray
-    fg-color: white
+    bg-color: "#C6E6FB"
+    fg-color: black
   abandoned:
     title: Aufgegeben
     description: Das Projekt wurde aufgegeben/vernachlässigt.
-    bg-color: darkred
+    bg-color: "#000080"
     fg-color: white
