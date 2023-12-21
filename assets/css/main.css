@@ -51,6 +51,7 @@ html, body {
 body {
     display: flex;
     flex-flow: column nowrap;
+    scrollbar-width: thin; /* Firefox only */
 }
 
 .container {

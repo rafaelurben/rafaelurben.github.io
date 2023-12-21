@@ -5,6 +5,8 @@ function applyFilters() {
 
     let container = document.querySelector("#project-grid");
 
+    // Apply filters
+
     let filter = "";
     if (category !== "all") {
         filter += `[data-categories~="${category}"]`;
@@ -29,6 +31,18 @@ function applyFilters() {
         elem.classList.add("hidden");
     });
 
+    // Apply search
+
+    let term = document.querySelector("#filter-search").value.toLowerCase();
+
+    container.querySelectorAll(`.project:not(.hidden)`).forEach(elem => {
+        if (!elem.textContent.toLowerCase().includes(term)) {
+            elem.classList.add("hidden");
+        }
+    });
+
+    // Update counts
+
     let totalCount = container.querySelectorAll(".project").length;
     let visibleCount = container.querySelectorAll(".project:not(.hidden)").length;
 
@@ -37,8 +51,5 @@ function applyFilters() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll("#filter-form").forEach(inputElem => {
-        inputElem.addEventListener("change", applyFilters);
-    })
     applyFilters();
 })
