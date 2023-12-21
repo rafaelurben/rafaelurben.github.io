@@ -304,6 +304,7 @@ p {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* Breakpoints */
