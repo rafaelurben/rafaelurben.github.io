@@ -201,6 +201,31 @@ footer {
             font-size: 0.8em;
         }
 
+        & #impressum-link {
+            position: relative;
+            color: var(--text);
+            text-decoration: none;
+            font-weight: bold;
+
+            &::before {
+                content: "[";
+                position: absolute;
+                right: calc(100% + 0.15em);
+                color: var(--weak);
+            }
+
+            &::after {
+                content: "]";
+                position: absolute;
+                left: calc(100% + 0.15em);
+                color: var(--weak);
+            }
+
+            &.current {
+                color: var(--accent);
+            }
+        }
+
         & nav#social_links ul {
             display: flex;
             flex-flow: row wrap;
