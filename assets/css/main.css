@@ -85,26 +85,11 @@ header {
         gap: 0.5em;
 
         & #page-title {
-            position: relative;
             margin-right: auto;
-            font-weight: bold;
             font-size: 1.4em;
-            text-decoration: none;
-            color: var(--text);
 
-            &::before {
-                content: "{";
-                position: absolute;
-                right: calc(100% + 0.15em);
-                color: var(--weak);
-            }
-
-            &::after {
-                content: "}";
-                position: absolute;
-                left: calc(100% + 0.15em);
-                color: var(--weak);
-            }
+            --decoration-before: "{";
+            --decoration-after: "}";
         }
 
         & #nav-toggler {
@@ -139,32 +124,10 @@ header {
                     position: relative;
 
                     & a {
-                        position: relative;
-                        color: var(--text);
-                        text-decoration: none;
-                        font-weight: bold;
-
-                        &::before {
-                            content: "<";
-                            position: absolute;
-                            right: calc(100% + 0.15em);
-                            color: var(--weak);
-                        }
-
-                        &::after {
-                            content: ">";
-                            position: absolute;
-                            left: calc(100% + 0.15em);
-                            color: var(--weak);
-                        }
-
-                        &.current {
-                            color: var(--accent);
-
-                            &::after {
-                                content: "/>";
-                            }
-                        }
+                        --decoration-before: "<";
+                        --decoration-after: ">";
+                        --decoration-current-before: "<";
+                        --decoration-current-after: "/>";
                     }
 
                     &::after {
@@ -203,29 +166,10 @@ footer {
         }
 
         & #impressum-link {
-            position: relative;
-            color: var(--text);
-            text-decoration: none;
-            font-weight: bold;
             font-size: 0.8em;
 
-            &::before {
-                content: "[";
-                position: absolute;
-                right: calc(100% + 0.15em);
-                color: var(--weak);
-            }
-
-            &::after {
-                content: "]";
-                position: absolute;
-                left: calc(100% + 0.15em);
-                color: var(--weak);
-            }
-
-            &.current {
-                color: var(--accent);
-            }
+            --decoration-before: "[";
+            --decoration-after: "]";
         }
 
         & nav#social_links ul {
@@ -243,6 +187,43 @@ footer {
                     color: var(--hover-color);
                 }
             }
+        }
+    }
+}
+
+/* Nav links */
+
+.decorated-nav-link {
+    position: relative;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: bold;
+
+    &::before {
+        position: absolute;
+        right: calc(100% + 0.15em);
+        bottom: 0;
+        color: var(--weak);
+        content: var(--decoration-before);
+    }
+
+    &::after {
+        position: absolute;
+        left: calc(100% + 0.15em);
+        bottom: 0;
+        color: var(--weak);
+        content: var(--decoration-after)
+    }
+
+    &.current {
+        color: var(--accent);
+
+        &::before {
+            content: var(--decoration-current-before, var(--decoration-before))
+        }
+
+        &::after {
+            content: var(--decoration-current-after, var(--decoration-after))
         }
     }
 }
