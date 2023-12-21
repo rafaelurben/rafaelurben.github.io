@@ -1,0 +1,134 @@
+---
+layout: null
+---
+
+/* Colors */
+
+[data-status-project="all"] {
+    --status-project-bg-color: var(--background);
+    --status-project-fg-color: var(--text);
+}
+{% for status in site.data.projectsettings.project_status %}
+[data-status-project="{{ status[0] }}"] {
+    --status-project-fg-color: {{ status[1].fg-color }};
+    --status-project-bg-color: {{ status[1].bg-color }};
+}
+{% endfor %}
+
+[data-status-dev="all"] {
+    --status-dev-bg-color: var(--background);
+    --status-dev-fg-color: var(--text);
+}
+{% for status in site.data.projectsettings.dev_status %}
+[data-status-dev="{{ status[0] }}"] {
+    --status-dev-fg-color: {{ status[1].fg-color }};
+    --status-dev-bg-color: {{ status[1].bg-color }};
+}
+{% endfor %}
+
+/* Filters */
+
+#filter-status-dev option,
+#filter-status-project option {
+    &:hover {
+        background-color: grey;
+        color: white;
+    }
+}
+
+#filter-status-project option {
+    background-color: var(--status-project-bg-color);
+    color: var(--status-project-fg-color);
+}
+
+#filter-status-dev option {
+    background-color: var(--status-dev-bg-color);
+    color: var(--status-dev-fg-color);
+}
+
+/* Projects */
+
+#project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1em;
+    margin: 1em 0;
+
+    .project {
+        display: flex;
+        flex-flow: row nowrap;
+        border: 1px solid var(--text);
+        border-radius: 1em;
+        padding: 1em;
+
+        & .content {
+            display: flex;
+            flex-flow: column nowrap;
+
+            & h1 {
+                font-size: 1em;
+            }
+
+            & .categories {
+                font-size: 0.7em;
+                color: var(--weak);
+                margin: 0.1em 0 0.2em;
+
+                & span:not(:last-child)::after {
+                    content: ",";
+                }
+            }
+
+            & .description {
+                font-size: 0.85em;
+                color: var(--weak);
+            }
+
+            & .badges {
+                display: flex;
+                flex-direction: row;
+                margin-top: auto;
+                gap: 0.5em;
+
+                & .pill {
+                    width: auto;
+                    display: inline-block;
+                    padding: 0.3em 0.5em;
+                    background-color: var(--text);
+                    color: var(--background);
+                    border-radius: 0.5em;
+                    text-decoration: none;
+
+                    &.link {
+                        font-size: 1.2em;
+                        padding: 0.1em 0.4em;
+                        border: 1px solid var(--text);
+
+                        &:hover {
+                            filter: invert(1);
+                            border-color: var(--background);
+                        }
+                    }
+
+                    &.status {
+                        cursor: help;
+
+                        &.status-project {
+                            background-color: var(--status-project-bg-color);
+                            color: var(--status-project-fg-color);
+                        }
+
+                        &.status-dev {
+                            background-color: var(--status-dev-bg-color);
+                            color: var(--status-dev-fg-color);
+                        }
+                    }
+                }
+            }
+        }
+
+        & .img-container {
+
+        }
+    }
+}

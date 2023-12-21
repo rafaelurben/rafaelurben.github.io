@@ -269,7 +269,7 @@ p {
 /* Utils */
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .weak {

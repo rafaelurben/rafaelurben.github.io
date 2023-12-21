@@ -2,4 +2,82 @@
 layout: default
 permalink: /projects/
 title: Projekte
+stylesheets:
+- /assets/css/forms.css
+- /assets/css/pages/projects.css
+scripts:
+- /assets/js/projects.js
 ---
+
+<h3>Projekte</h3>
+
+<form id="filter-form" class="horizontal">
+    <label for="filter-category">Kategorien: </label>
+    <select id="filter-category">
+        <option value="all">Alle</option>
+        {% for cat in site.data.projectsettings.categories %}
+            <option value="{{ cat[0] }}">{{ cat[1].title }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="filter-status-project">Projektstatus: </label>
+    <select id="filter-status-project">
+        <option value="all" data-status-dev="all">Alle</option>
+        {% for status in site.data.projectsettings.project_status %}
+            <option value="{{ status[0] }}" data-status-project="{{ status[0] }}">{{ status[1].title }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="filter-status-dev">Entwicklungsstatus: </label>
+    <select id="filter-status-dev">
+        <option value="all" data-status-dev="all">Alle</option>
+        {% for status in site.data.projectsettings.dev_status %}
+            <option value="{{ status[0] }}" data-status-dev="{{ status[0] }}">{{ status[1].title }}</option>
+        {% endfor %}
+    </select>
+</form>
+
+{% assign projects = site.data.projects %}
+
+<p id="project-count" class="weak"></p>
+
+<div id="project-grid">
+    {% for pro in projects %}
+        {% assign pid = pro[0] %}
+        {% assign project = pro[1] %}
+        <article class="project" data-project="{{ pid }}" data-status-dev="{{ project.status_dev }}"
+                 data-status-project="{{ project.status_project }}"
+                 data-categories="{{ project.categories | join: " " }}">
+            <div class="content">
+                <h1>{{ project.title }}</h1>
+                <p class="categories">
+                    {% for cat in project.categories %}
+                        <span>{{ site.data.projectsettings.categories[cat].title }}</span>
+                    {% endfor %}
+                </p>
+                <p class="description">{{ project.subtitle }}</p>
+                <div class="badges">
+                    {% if project.githuburl %}
+                        <a class="pill link" href="{{ project.githuburl }}"><i
+                                    class="fa-brands fa-github fa-fw"></i></a>
+                    {% endif %}
+                    {% if project.url %}
+                        <a class="pill link" href="{{ project.url }}"><i class="fa-solid fa-link fa-fw"></i></a>
+                    {% endif %}
+
+                    {% assign status_project = site.data.projectsettings.project_status[project.status_project] %}
+                    <abbr class="pill status status-project"
+                          title="{{ status_project.description }}">{{ status_project.title }}</abbr>
+                    {% assign status_dev = site.data.projectsettings.dev_status[project.status_dev] %}
+                    <abbr class="pill status status-dev"
+                          title="{{ status_dev.description }}">{{ status_dev.title }}</abbr>
+                </div>
+            </div>
+            {% if project.img %}
+                <div class="img-container">
+                    <img src="{{ project.img }}" alt="Bild zu Projekt {{ project.title }}"/>
+                </div>
+            {% endif %}
+        </article>
+    {% endfor %}
+</div>

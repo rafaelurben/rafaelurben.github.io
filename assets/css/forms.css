@@ -2,18 +2,12 @@ form {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.75em 1.25em;
-    margin-top: 1em;
+    margin: 1em 0;
 
-    & input, & textarea {
-        border: 1px solid var(--weak);
-        border-radius: 5px;
-        background-color: var(--background);
-        color: var(--text);
-        padding: 0.25em 0.4em;
-    }
-
-    & textarea {
-        resize: vertical;
+    &.horizontal {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
     }
 
     & .button-row {
@@ -28,6 +22,18 @@ form {
             border-color: red;
         }
     }
+}
+
+input, textarea, select {
+    border: 1px solid var(--weak);
+    border-radius: 5px;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 0.25em 0.4em;
+}
+
+textarea {
+    resize: vertical;
 }
 
 @media (min-width: 769px) {

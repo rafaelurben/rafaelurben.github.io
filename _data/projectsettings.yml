@@ -1,61 +1,66 @@
 categories:
-  - title: Webseiten, Webapps und co.
-    projects:
-      - django-kmuhelper
-      - django-discordbot
-      - erbrechner
-  - title: Apps & Tools
-    projects:
-      - autohotkey-utils
-  - title: Spielerweiterungen
-    projects:
-      - mc-randomized-skyfight
-      - mc-lootdrops
-      - mc-touchtofire
-      - mc-touchtorandom
-      - mc-touchtobedrock
-      - mc-mobduplicator
-      - mc-luckyore
-      - mc-permanentcuringdiscount
-      - mc-autoloot
-      - mc-automation
-      - mc-elevators
-      - mc-storage
-  - title: Unkategorisiert
-    projects:
-      - raspberrypi-minecraftserver
-statuss_project:
-  - title: finished
-    description: Das Projekt ist abgeschlossen und funktioniert wie erwartet.
-    color: darkgreen
-  - title: stable
+  web:
+    title: Web
+  tools:
+    title: Apps & Tools
+  gameextensions:
+    title: Spielerweiterungen
+  uncategorized:
+    title: Unkategorisiert
+project_status:
+  finished:
+    title: Abgeschlossen
+    description: Das Projekt wurde fertiggestellt und funktioniert wie geplant.
+    bg-color: darkgreen
+    fg-color: white
+  stable:
+    title: Stabil
     description: Das Projekt ist stabil und funktioniert gut.
-    color: lightgreen
-  - title: beta
+    bg-color: "#008a00"
+    fg-color: white
+  beta:
+    title: Beta
     description: Das Projekt ist noch instabil aber hat bereits einen Grossteil der geplanten Funktionen.
-    color: yellow
-  - title: alpha
+    bg-color: yellow
+    fg-color: black
+  alpha:
+    title: Alpha
     description: Das Projekt ist noch instabil und hat erste wenige Funktionen.
-    color: orange
-  - title: dev
+    bg-color: orange
+    fg-color: white
+  dev:
+    title: In Entwicklung
     description: Das Projekt ist noch in der Entwicklungsphase und ist noch nicht brauchbar.
-    color: red
-  - title: outdated
+    bg-color: red
+    fg-color: white
+  outdated:
+    title: Veraltet
     description: Das Projekt ist veraltet.
-    color: darkred
-statuss_dev:
-  - title: ended
-    description: Das Projekt ist fertig entwickelt.
-    color: darkgreen
-  - title: active
+    bg-color: darkred
+    fg-color: white
+dev_status:
+  ended:
+    title: Beendet
+    description: Die Entwicklung wurde beendet.
+    bg-color: darkgreen
+    fg-color: white
+  active:
+    title: Aktiv
     description: Das Projekt wird aktiv weiterentwickelt.
-    color: yellow
-  - title: passive
+    bg-color: yellow
+    fg-color: black
+  passive:
+    title: Passiv
     description: Das Projekt wird passiv weiterentwickelt.
-    color: orange
-  - title: abandoned
-    description: Das Projekt wurde aufgegeben/vernachlässigt.
-    color: red
-  - title: paused
+    bg-color: orange
+    fg-color: white
+  paused:
+    title: Pausiert
     description: Das Projekt ist pausiert und wird derzeit nicht weiterentwickelt.
-    color: gray
+    bg-color: gray
+    fg-color: white
+  abandoned:
+    title: Aufgegeben
+    description: Das Projekt wurde aufgegeben/vernachlässigt.
+    bg-color: darkred
+    fg-color: white
