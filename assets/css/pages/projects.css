@@ -50,7 +50,7 @@ layout: null
 
 #project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1em;
     margin: 1em 0;
 
@@ -133,5 +133,11 @@ layout: null
         & .img-container {
 
         }
+    }
+}
+
+@media (min-width: 769px) {
+    #project-grid {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     }
 }

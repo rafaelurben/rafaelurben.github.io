@@ -12,32 +12,40 @@ scripts:
 <h3>Projekte</h3>
 
 <form id="filter-form" class="horizontal">
-    <label for="filter-category">Kategorien:</label>
-    <select id="filter-category" onchange="applyFilters();">
-        <option value="all">Alle</option>
-        {% for cat in site.data.projectsettings.categories %}
-            <option value="{{ cat[0] }}">{{ cat[1].title }}</option>
-        {% endfor %}
-    </select>
+    <div class="form-group">
+        <label for="filter-category">Kategorien:</label>
+        <select id="filter-category" onchange="applyFilters();">
+            <option value="all">Alle</option>
+            {% for cat in site.data.projectsettings.categories %}
+                <option value="{{ cat[0] }}">{{ cat[1].title }}</option>
+            {% endfor %}
+        </select>
+    </div>
 
-    <label for="filter-status-project">Projektstatus:</label>
-    <select id="filter-status-project" onchange="applyFilters();">
-        <option value="all" data-status-dev="all">Alle</option>
-        {% for status in site.data.projectsettings.project_status %}
-            <option value="{{ status[0] }}" data-status-project="{{ status[0] }}">{{ status[1].title }}</option>
-        {% endfor %}
-    </select>
+    <div class="form-group">
+        <label for="filter-status-project">Projektstatus:</label>
+        <select id="filter-status-project" onchange="applyFilters();">
+            <option value="all" data-status-dev="all">Alle</option>
+            {% for status in site.data.projectsettings.project_status %}
+                <option value="{{ status[0] }}" data-status-project="{{ status[0] }}">{{ status[1].title }}</option>
+            {% endfor %}
+        </select>
+    </div>
 
-    <label for="filter-status-dev">Entwicklungsstatus:</label>
-    <select id="filter-status-dev" onchange="applyFilters();">
-        <option value="all" data-status-dev="all">Alle</option>
-        {% for status in site.data.projectsettings.dev_status %}
-            <option value="{{ status[0] }}" data-status-dev="{{ status[0] }}">{{ status[1].title }}</option>
-        {% endfor %}
-    </select>
+    <div class="form-group">
+        <label for="filter-status-dev">Entwicklungsstatus:</label>
+        <select id="filter-status-dev" onchange="applyFilters();">
+            <option value="all" data-status-dev="all">Alle</option>
+            {% for status in site.data.projectsettings.dev_status %}
+                <option value="{{ status[0] }}" data-status-dev="{{ status[0] }}">{{ status[1].title }}</option>
+            {% endfor %}
+        </select>
+    </div>
 
-    <label for="filter-search">Suche:</label>
-    <input type="text" id="filter-search" placeholder="Suchbegriff eingeben" oninput="applyFilters();"/>
+    <div class="form-group">
+        <label for="filter-search">Suche:</label>
+        <input type="text" id="filter-search" placeholder="Suchbegriff eingeben" oninput="applyFilters();"/>
+    </div>
 </form>
 
 {% assign projects = site.data.projects %}
@@ -66,7 +74,8 @@ scripts:
                                     class="fa-brands fa-github fa-fw"></i></a>
                     {% endif %}
                     {% if project.url %}
-                        <a class="pill link" href="{{ project.url }}" target="_blank"><i class="fa-solid fa-link fa-fw"></i></a>
+                        <a class="pill link" href="{{ project.url }}" target="_blank"><i
+                                    class="fa-solid fa-link fa-fw"></i></a>
                     {% endif %}
 
                     {% assign status_project = site.data.projectsettings.project_status[project.status_project] %}

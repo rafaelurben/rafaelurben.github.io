@@ -116,6 +116,7 @@ header {
             justify-content: center;
             height: 2.5em;
             width: 2.5em;
+            margin-right: -1em;
 
             & span::before {
                 content: "</>";
@@ -206,6 +207,7 @@ footer {
             color: var(--text);
             text-decoration: none;
             font-weight: bold;
+            font-size: 0.8em;
 
             &::before {
                 content: "[";
