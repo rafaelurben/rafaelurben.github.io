@@ -10,7 +10,7 @@
     padding: 1em;
 
     & #img-container {
-        width: 75%;
+        width: 70%;
         flex-grow: 0;
         flex-shrink: 1;
 
