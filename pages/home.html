@@ -8,7 +8,9 @@ stylesheets:
 
 <div id="home-container">
     <div id="img-container">
-        <div id="img"></div>
+        <div id="img">
+            <!-- Not implemented yet because there are currently no project images -->
+        </div>
     </div>
     <div id="col-container">
         <div>
@@ -21,8 +23,8 @@ stylesheets:
             bei der Schweizerischen Post und der Fernfachhochschule Schweiz.
         </p>
         <div id="btn-container">
-            <a class="btn primary" href="/about/">Über mich</a>
-            <a class="btn secondary" href="/projects/">Meine Projekte</a>
+            <a class="btn primary" href="{{ "/about/" | relative_url }}">Über mich</a>
+            <a class="btn secondary" href="{{ "/projects/" | relative_url }}">Meine Projekte</a>
         </div>
     </div>
 </div>

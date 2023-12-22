@@ -23,4 +23,4 @@ ich mehr über viele Fachbereiche der Informatik und meine Intresse für das Fac
 studiere ich aktuell Informatik an der [FFHS (Fernfachhochschule Schweiz)](https://www.ffhs.ch/de).
 
 Mittlerweile habe ich schon recht viele kleine Programmierprojekte gestartet (und teilweise auch beendet). Diese
-befinden sich alle auf [dieser Webseite](/projects/) sowie auf [meinem GitHub Account](https://github.com/rafaelurben).
+befinden sich alle auf [dieser Webseite]({{ "/projects/" | relative_url }}) sowie auf [meinem GitHub Account](https://github.com/rafaelurben).
