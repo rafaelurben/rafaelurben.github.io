@@ -1,18 +1,24 @@
+---
+layout: null
+---
 {
     "short_name": "Rafael",
     "name": "Rafael Urben",
+    "theme_color": "#000000",
+    "background_color": "#000000",
     "icons": [
         {
-            "src": "/assets/img/icon-192x192.png",
+            "src": "{{ "/assets/img/icon-192x192.png" | relative_url }}",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/assets/img/icon-512x512.png",
+            "src": "{{ "/assets/img/icon-512x512.png" | relative_url }}",
             "type": "image/png",
             "sizes": "512x512"
         }
     ],
-    "start_url": "/",
+    "start_url": "{{ "/" | relative_url }}",
+    "scope": "{{ "/" | relative_url }}",
     "display": "standalone"
 }
