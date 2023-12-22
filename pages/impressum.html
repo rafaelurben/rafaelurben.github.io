@@ -24,9 +24,15 @@ scripts:
     Hinweis: Beim Absenden des Formulars öffnet sich dein E-Mail-Client. Die Nachricht musst du manuell senden.</p>
 <form onsubmit="event.preventDefault(); submitContactForm();" id="contact-form">
     <label for="form-contact-subject">Thema:</label>
-    <input type="text" id="form-contact-subject" required/>
+    <div class="field-error-container">
+        <input type="text" id="form-contact-subject" required>
+        <p class="error">Bitte fülle dieses Feld aus!</p>
+    </div>
     <label for="form-contact-message">Deine Nachricht:</label>
-    <textarea id="form-contact-message" required></textarea>
+    <div class="field-error-container">
+        <textarea id="form-contact-message" required></textarea>
+        <p class="error">Bitte fülle dieses Feld aus!</p>
+    </div>
     <div class="button-row">
         <button class="btn secondary" type="reset" onclick="validateContactForm()">Formular leeren</button>
         <button class="btn primary" type="submit" onclick="validateContactForm()">E-Mail senden</button>

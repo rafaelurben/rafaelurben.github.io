@@ -20,11 +20,27 @@ form {
     &.validated {
         & input:invalid, & textarea:invalid {
             border-color: red;
+
+            & + .error {
+                display: inline-block;
+                color: red;
+                font-size: 0.7em;
+            }
         }
     }
 
     & .form-group label {
         margin-right: 0.5em;
+    }
+
+    & .field-error-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    & .error {
+        display: none;
     }
 }
 
