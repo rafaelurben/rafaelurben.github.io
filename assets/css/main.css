@@ -103,6 +103,9 @@ header {
             width: 2.5em;
             margin-right: -1em;
 
+            rotate: 360deg;
+            transition: rotate 0.5s ease-in-out;
+
             & span::before {
                 content: "</>";
             }
@@ -231,8 +234,12 @@ footer {
 /* When nav hidden */
 
 body.nav-hidden {
-    #nav-toggler span::before {
-        content: "<>";
+    #nav-toggler {
+        rotate: 0deg;
+
+        & span::before {
+            content: "<>";
+        }
     }
 
     #main-nav {
