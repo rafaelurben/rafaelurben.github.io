@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 #home-container {
     display: flex;
     flex-flow: column nowrap;
@@ -18,7 +22,7 @@
             aspect-ratio: 1;
             border-radius: 50%;
 
-            background-image: url("/assets/img/portrait-250.jpg");
+            background-image: url("{{ '/assets/img/portrait-250.jpg' | relative_url }}");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
