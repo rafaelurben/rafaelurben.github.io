@@ -21,46 +21,46 @@ project_status:
   beta:
     title: Beta
     description: Das Projekt ist noch instabil aber hat bereits einen Grossteil der geplanten Funktionen.
-    bg-color: yellow
+    bg-color: "#d2fc00"
     fg-color: black
   alpha:
     title: Alpha
     description: Das Projekt ist noch instabil und hat erste wenige Funktionen.
-    bg-color: orange
-    fg-color: white
+    bg-color: "#fcda00"
+    fg-color: black
   dev:
     title: In Entwicklung
     description: Das Projekt ist noch in der Entwicklungsphase und ist noch nicht brauchbar.
-    bg-color: red
-    fg-color: white
+    bg-color: "#fca400"
+    fg-color: black
   outdated:
     title: Veraltet
     description: Das Projekt ist veraltet.
     bg-color: darkred
     fg-color: white
 dev_status:
-  ended:
-    title: Beendet
-    description: Die Entwicklung wurde beendet.
-    bg-color: "#446CCF"
-    fg-color: white
   active:
     title: Aktiv
-    description: Das Projekt wird aktiv weiterentwickelt.
+    description: Das Projekt ist noch aktiv und wird weiterentwickelt.
     bg-color: "#0AFFFF"
-    fg-color: black
-  passive:
-    title: Passiv
-    description: Das Projekt wird passiv weiterentwickelt.
-    bg-color: "#6BCAE2"
     fg-color: black
   paused:
     title: Pausiert
     description: Das Projekt ist pausiert und wird derzeit nicht weiterentwickelt.
-    bg-color: "#C6E6FB"
+    bg-color: "#6BCAE2"
     fg-color: black
+  support:
+    title: Unterhalt
+    description: Die Entwicklung wurde beendet. Allfällige Fehler werden noch behoben und Abhängigkeiten werden aktualisiert.
+    bg-color: "#446CCF"
+    fg-color: white
   abandoned:
     title: Aufgegeben
     description: Das Projekt wurde aufgegeben/vernachlässigt.
-    bg-color: "#000080"
+    bg-color: "#002ce0"
     fg-color: white
+  archived:
+    title: Archiviert
+    description: Das Projekt wurde archiviert und wird nicht mehr weiterentwickelt.
+    bg-color: "#b0b0b0"
+    fg-color: black

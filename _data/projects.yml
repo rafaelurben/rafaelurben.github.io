@@ -4,7 +4,7 @@ django-teamized:
   githuburl: https://github.com/rafaelurben/django-teamized
   url: https://app.rafaelurben.ch/teamized/
   status_project: stable
-  status_dev: passive
+  status_dev: active
   categories:
     - web
 django-kmuhelper:
@@ -13,7 +13,7 @@ django-kmuhelper:
   githuburl: https://github.com/rafaelurben/django-kmuhelper
   url: https://www.rafaelurben.ch/django-kmuhelper/
   status_project: stable
-  status_dev: passive
+  status_dev: active
   categories:
     - web
 django-discordbot:
@@ -30,7 +30,7 @@ erbrechner:
   githuburl: https://github.com/rafaelurben/erbrechner
   url: https://rafaelurben.ch/erbrechner/
   status_project: finished
-  status_dev: ended
+  status_dev: support
   categories:
     - tools
     - web
@@ -39,9 +39,113 @@ autohotkey-utils:
   subtitle: Ein mit AutoHotkey erstelltes Shortcut-Tool für den täglichen Gebrauch
   githuburl: https://github.com/rafaelurben/autohotkey-utils
   status_project: stable
-  status_dev: passive
+  status_dev: support
   categories:
     - tools
+mc-randomized-skyfight:
+  title: mc-randomized-skyfight
+  subtitle: (Minecraft Datapack) Ein Spiel in Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-randomizedskyfight
+  status_project: finished
+  status_dev: support
+  categories:
+    - gameextensions
+mc-lootdrops:
+  title: mc-lootdrops
+  subtitle: (Minecraft Datapack) Lootdrops in Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-lootdrops
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-touchtofire:
+  title: mc-touchtofire
+  subtitle: (Minecraft Datapack) Alle Blöcke, welche berührt werden, gehen in Flammen auf
+  githuburl: https://github.com/rafaelurben/mc-touchtofire
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-touchtorandom:
+  title: mc-touchtorandom
+  subtitle: (Minecraft Datapack) Alle Blöcke, welche berührt werden, verwandeln sich in zufällige Blöcke
+  githuburl: https://github.com/rafaelurben/mc-touchtorandom
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-touchtobedrock:
+  title: mc-touchtobedrock
+  subtitle: (Minecraft Datapack) Alle Blöcke, welche berührt werden, verwandeln sich in Bedrock
+  githuburl: https://github.com/rafaelurben/mc-touchtobedrock
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-mobduplicator:
+  title: mc-mobduplicator
+  subtitle: (Minecraft Datapack) Jeder berührte Mob dupliziert sich
+  githuburl: https://github.com/rafaelurben/mc-mobduplicator
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-luckyore:
+  title: mc-luckyore
+  subtitle: (Minecraft Datapack) Ein Luckyblock Alternative in Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-luckyore
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-permanentcuringdiscount:
+  title: mc-permanentcuringdiscount
+  subtitle: (Minecraft Datapack) Ein Versuch, Heilungsrabatte von Dorfbewohnern für alle permanent zugänglich zu machen
+  githuburl: https://github.com/rafaelurben/mc-permanentcuringdiscount
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-globaladvancements:
+  title: mc-globaladvancements
+  subtitle: (Minecraft Datapack) Advancements gelten für alle Spieler
+  githuburl: https://github.com/rafaelurben/mc-globaladvancements
+  status_project: finished
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-autoloot:
+  title: mc-autoloot
+  subtitle: (Minecraft Datapack) Ein Autoloot-Tool für Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-autoloot
+  status_project: outdated
+  status_dev: archived
+  categories:
+    - gameextensions
+mc-automation:
+  title: mc-automation
+  subtitle: (Minecraft Datapack) Diverse "Maschinen" und Tools für Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-automation
+  status_project: beta
+  status_dev: abandoned
+  categories:
+    - gameextensions
+mc-elevators:
+  title: mc-elevators
+  subtitle: (Minecraft Datapack) Minecart-Fahrstühle in Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-elevators
+  status_project: alpha
+  status_dev: abandoned
+  categories:
+    - gameextensions
+mc-storage:
+  title: mc-storage
+  subtitle: (Minecraft Datapack) Ein Lagersystem für Minecraft Vanilla
+  githuburl: https://github.com/rafaelurben/mc-automation
+  status_project: dev
+  status_dev: abandoned
+  categories:
+    - gameextensions
 raspberrypi-minecraftserver:
   title: raspberrypi-minecraftserver
   subtitle: Ein Minecraft-Server auf dem Raspberry Pi
@@ -50,102 +154,6 @@ raspberrypi-minecraftserver:
     Es kann sehr kompliziert sein, auf dem RaspberryPi einen Minecraft-Server zu hosten und 
     Backups zu erstellen. Deshalb habe ich dieses kleine Hilfstool erstellt.
   status_project: outdated
-  status_dev: ended
+  status_dev: abandoned
   categories:
     - uncategorized
-mc-randomized-skyfight:
-  title: mc-randomized-skyfight
-  subtitle: Ein Spiel in Minecraft Vanilla (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-randomizedskyfight
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-lootdrops:
-  title: mc-lootdrops
-  subtitle: Lootdrops in Minecraft Vanilla (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-lootdrops
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-touchtofire:
-  title: mc-touchtofire
-  subtitle: Alles, was berührt wird, geht in Flammen auf (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-touchtofire
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-touchtorandom:
-  title: mc-touchtorandom
-  subtitle: Alles, was berührt wird, verwandelt sich in einen zufälligen Block (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-touchtorandom
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-touchtobedrock:
-  title: mc-touchtobedrock
-  subtitle: Alles, was berührt wird, geht in Flammen auf (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-touchtobedrock
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-mobduplicator:
-  title: mc-mobduplicator
-  subtitle: Jeder berührte Mob dupliziert sich (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-mobduplicator
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-luckyore:
-  title: mc-luckyore
-  subtitle: Ein Luckyblock Alternative in Minecraft Vanilla (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-luckyore
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-permanentcuringdiscount:
-  title: mc-permanentcuringdiscount
-  subtitle: Ein Versuch, Heilungsrabatte von Dorfbewohnern für alle permanent zugänglich zu machen (Datapack commission)
-  githuburl: https://github.com/rafaelurben/mc-permanentcuringdiscount
-  status_project: finished
-  status_dev: ended
-  categories:
-    - gameextensions
-mc-autoloot:
-  title: mc-autoloot
-  subtitle: Ein Autoloot-Tool für Minecraft Vanilla (Datapack)
-  githuburl: https://github.com/rafaelurben/mc-autoloot
-  status_project: outdated
-  status_dev: abandoned
-  categories:
-    - gameextensions
-mc-automation:
-  title: mc-automation
-  subtitle: Diverse "Maschinen" und Tools für Minecraft Vanilla (Datapack)
-  githuburl: https://github.com/rafaelurben/mc-automation
-  status_project: beta
-  status_dev: abandoned
-  categories:
-    - gameextensions
-mc-elevators:
-  title: mc-elevators
-  subtitle: Minecart-Fahrstühle in Minecraft Vanilla (Datapack)
-  githuburl: https://github.com/rafaelurben/mc-elevators
-  status_project: alpha
-  status_dev: abandoned
-  categories:
-    - gameextensions
-mc-storage:
-  title: mc-storage
-  subtitle: Ein Lagersystem für Minecraft Vanilla (Datapack)
-  githuburl: https://github.com/rafaelurben/mc-automation
-  status_project: dev
-  status_dev: abandoned
-  categories:
-    - gameextensions
