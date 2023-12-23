@@ -2,6 +2,7 @@
 layout: default
 permalink: /about/
 title: Über mich
+description: Hallo! Ich heisse Rafael, bin im Jahre 2004 geboren und lebe in der Schweiz. (...)
 ---
 
 ### Über mich

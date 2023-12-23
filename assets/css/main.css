@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/* Font & default transitions */
-
-* {
-    font-family: 'Poppins', sans-serif;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, filter 0.2s ease-in-out;
-}
-
 /* Colors (default=dark) */
 
 :root {
@@ -21,21 +12,23 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --text: #0f130b;
-        --background: #f3f7ed;
-        --accent: #73c417;
-        --weak: #949494;
+        --text: #000000;
+        --background: #f7faf5;
+        --accent: #417800;
+        --weak: #555555;
         --btn-primary: #507425;
         --btn-secondary: #aae06c;
     }
 }
 
-/* General Layout */
+/* General Layout, Font & default transitions */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
 html, body {
@@ -180,11 +173,13 @@ footer {
             flex-flow: row wrap;
             justify-content: center;
             list-style: none;
-            gap: 0.5em;
+            gap: 1em;
 
             & a {
                 color: var(--weak);
                 text-decoration: none;
+
+                --hover-color: white; /* fallback color when none is set on icon */
 
                 &:hover {
                     color: var(--hover-color);
@@ -337,6 +332,10 @@ p {
     footer > .container {
         flex-direction: row;
         justify-content: space-between;
+
+        & nav#social_links ul {
+            gap: 0.5em;
+        }
     }
 }
 
