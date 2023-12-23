@@ -11,4 +11,10 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      last-modified-at: 2021-02-04 12:30:00 +0100
+      last-modified-at: 2023-12-23 12:30:00 +0100
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
