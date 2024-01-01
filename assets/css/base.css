@@ -1,0 +1,42 @@
+/* Colors (default=dark) */
+
+:root {
+    font-size: 12pt;
+    --text: #f0f4ec;
+    --background: #000000;
+    --accent: #97e83b;
+    --weak: #949494;
+    --btn-primary: #b6da8b;
+    --btn-secondary: #2A5421;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text: #000000;
+        --background: #f7faf5;
+        --accent: #417800;
+        --weak: #555555;
+        --btn-primary: #507425;
+        --btn-secondary: #aae06c;
+    }
+}
+
+/* Base Layout, Font & default transitions */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh; /* fallback */
+    height: 100dvh;
+    overflow-x: hidden; /* fixes a bug in Firefox involving the y-scrollbar */
+
+    background-color: var(--background);
+    color: var(--text);
+}
