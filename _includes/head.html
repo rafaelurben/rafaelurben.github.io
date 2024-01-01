@@ -14,8 +14,12 @@
 <meta property="og:type" content="{% if page.isarticle %}article{% else %}website{% endif %}">
 <meta property="og:image" content="{{ "/assets/img/icon-512x512.png" | relative_url }}">
 
+<!-- Search engines -->
 {% if page.noindex %}
 <meta name="robots" content="noindex">
+{% endif %}
+{% if page.permalink %}
+<link rel="canonical" href="{{ page.permalink | absolute_url }}">
 {% endif %}
 
 <!-- Icons  -->
