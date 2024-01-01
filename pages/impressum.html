@@ -3,39 +3,26 @@ layout: default
 permalink: /impressum/
 title: Impressum
 description: Kontaktiere mich.
-stylesheets:
-- /assets/css/forms.css
 scripts:
 - /assets/js/contactform.js
 ---
 
-<h3>Urheber</h3>
+<h3>Impressum</h3>
 
 <p>
-    Diese Seite wurde von mir persönlich erstellt. Alle Inhalte gehören mir, ausgenommen Icons (FontAwesome).
+    Diese Seite wurde von mir persönlich erstellt. Alle Inhalte gehören mir, mit folgenden Ausnahmen:
 </p>
 
-<h3>Kontakt</h3>
+<ul>
+    <li>Icons (<a href="https://fontawesome.com">Font Awesome</a>)</li>
+    <li>Schriftart (<a href="https://fonts.google.com/specimen/Poppins">Poppins von Google Fonts</a>)</li>
+</ul>
 
-<p>E-Mail: <a href="mailto:dev@rafaelurben.ch">dev@rafaelurben.ch</a></p>
+<h4>Kontakt</h4>
 
-<h3>Kontaktformular</h3>
+<p>Am besten erreichbar bin ich via E-Mail: <a href="mailto:dev@rafaelurben.ch">dev@rafaelurben.ch</a></p>
 
-<p class="weak">
-    Hinweis: Beim Absenden des Formulars öffnet sich dein E-Mail-Client. Die Nachricht musst du manuell senden.</p>
-<form onsubmit="event.preventDefault(); submitContactForm();" id="contact-form">
-    <label for="form-contact-subject">Thema:</label>
-    <div class="field-error-container">
-        <input type="text" id="form-contact-subject" required>
-        <p class="error">Bitte fülle dieses Feld aus!</p>
-    </div>
-    <label for="form-contact-message">Deine Nachricht:</label>
-    <div class="field-error-container">
-        <textarea id="form-contact-message" required></textarea>
-        <p class="error">Bitte fülle dieses Feld aus!</p>
-    </div>
-    <div class="button-row">
-        <button class="btn secondary" type="reset" onclick="validateContactForm()">Formular leeren</button>
-        <button class="btn primary" type="submit" onclick="validateContactForm()">E-Mail senden</button>
-    </div>
-</form>
+<p>Alternativ bin ich in diversen sozialen Medien unter dem Benutzernamen <i class="accent">rafaelurben</i>
+    auffindbar. Da ich jedoch die sozialen Medien nicht allzu aktiv nutze, kann es sein, dass ich dort nicht
+    sofort antworte.
+</p>
