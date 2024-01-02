@@ -12,6 +12,14 @@ defaults:
     values:
       layout: "default"
       last_modified_at: 2023-12-23 12:30:00 +0100
+  -
+    scope:
+      path: "redirects"
+      type: "pages"
+    values:
+      layout: redirect
+      noindex: true
+      sitemap: false
 exclude:
   - README.md
   - LICENSE
