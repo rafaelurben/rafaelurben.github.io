@@ -15,7 +15,7 @@
   color: rgb(255, 104, 113)
 -
   name: E-Mail
-  url: https://go.rafaelurben.ch/devmail
+  url: mailto:dev@rafaelurben.ch
   icon: fa-solid fa-envelope
   color: rgb(150, 150, 150)
 -
