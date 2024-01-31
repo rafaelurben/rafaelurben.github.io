@@ -45,7 +45,7 @@ header {
         }
 
         & #nav-toggler {
-            border: 1px solid var(--accent);
+            border: 1.5px solid var(--accent);
             border-radius: 50%;
             cursor: pointer;
             display: flex;
@@ -162,6 +162,7 @@ footer {
         bottom: 0;
         color: var(--weak);
         content: var(--decoration-before);
+        white-space: nowrap;
     }
 
     &::after {
@@ -169,7 +170,8 @@ footer {
         left: calc(100% + 0.15em);
         bottom: 0;
         color: var(--weak);
-        content: var(--decoration-after)
+        content: var(--decoration-after);
+        white-space: nowrap;
     }
 
     &.current {
