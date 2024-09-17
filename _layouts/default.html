@@ -44,13 +44,15 @@
             © Rafael Urben - 2024
         </div>
         <nav>
-            <a id="impressum-link" class="decorated-nav-link" href="{{ "/impressum/" | relative_url }}">Impressum</a>
+            <a id="impressum-link" class="decorated-nav-link" href="{{ "/impressum/" | relative_url }}">Impressum &
+            Kontakt</a>
         </nav>
         <nav id="social_links">
             <ul>
                 {% for platform in site.data.social_links %}
                 <li>
-                    <a href="{{ platform.url }}" title="{{ platform.name }}" style="--hover-color: {{ platform.color }};" target="_blank">
+                    <a href="{{ platform.url }}" title="{{ platform.name }}"
+                       style="--hover-color: {{ platform.color }};" target="_blank">
                         <i class="{{ platform.icon }}"></i>
                     </a>
                 </li>
