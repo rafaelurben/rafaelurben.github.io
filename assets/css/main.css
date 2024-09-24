@@ -133,6 +133,7 @@ footer {
             justify-content: center;
             list-style: none;
             gap: 1em;
+            margin: 0;
 
             & a {
                 color: var(--weak);
