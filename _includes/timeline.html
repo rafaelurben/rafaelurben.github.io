@@ -1,0 +1,45 @@
+<div class="timeline">
+    <div class="timeline-cell-icon">
+        <i class="timeline-icon fa-2x fa-fw fa-solid {{ include.timeline.icon }}"></i>
+    </div>
+    <div class="timeline-cell-title">
+        <h3 class="timeline-title no-decor">{{ include.timeline.title }}</h3>
+    </div>
+    {% for item in include.timeline.items %}
+    <div class="timeline-cell-item-marker">
+        {% if item.current %}
+        <div class="timeline-item-marker timeline-item-marker-current {% if forloop.last %}timeline-last{% endif %}"></div>
+        {% else %}
+        <div class="timeline-item-marker timeline-item-marker-past {% if forloop.last %}timeline-last{% endif %}"></div>
+        {% endif %}
+    </div>
+    <div class="timeline-cell-item-date">
+        <span class="timeline-item-date">
+            {% if item.date %}
+            {{ item.date }}
+            {% else %}
+                {% if include.timeline.reversed %}
+                    {{ item.date_to }}
+                    <br/>
+                    {{ item.date_from }}
+                {% else %}
+                    {{ item.date_from }}
+                    <br/>
+                    {{ item.date_to }}
+                {% endif %}
+            {% endif %}
+        </span>
+    </div>
+    <div class="timeline-cell-item-title">
+        <h4 class="timeline-item-title no-decor">{{ item.title }}</h4>
+    </div>
+    <div class="timeline-cell-item-lifeline">
+        <div class="timeline-item-lifeline {% if forloop.last %}timeline-last{% endif %}"></div>
+    </div>
+    <div class="timeline-cell-item-description">
+        <div class="timeline-item-description">
+            {{ item.description | markdownify | safe }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
