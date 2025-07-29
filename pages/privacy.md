@@ -70,11 +70,7 @@ Domains:
 
 (Liste nicht abschliessend.)
 
-##### B2.1 Verantwortlichkeit
-
-Verantwortlich für den Betrieb dieser Webapps ist Rafael Urben (siehe Impressum).
-
-##### B2.2 Hosting
+##### B2.1 Hosting
 
 Die Webapps werden derzeit auf Servern der Heroku Cloud Plattform in der EU gehostet. Heroku Inc. ist eine
 Tochtergesellschaft der Salesforce.com, inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105,
@@ -84,7 +80,7 @@ Die Daten werden auf Datenbanken in der Schweiz gespeichert, die von der Hostpoi
 
 Es gelten ergänzend die Datenschutzbestimmungen dieser Anbieter.
 
-##### B2.3 Erhobene Daten
+##### B2.2 Erhobene Daten
 
 Folgende personenbezogene Daten können verarbeitet und gespeichert werden, wenn sie durch den Nutzer eingegeben werden:
 
@@ -100,22 +96,22 @@ erfolgt grundsätzlich unbefristet. Auch nach einer Löschung durch den Nutzer k
 
 Anfragen zur vollständigen Löschung personenbezogener Daten können jederzeit an den Verantwortlichen gerichtet werden.
 
-##### B2.4 Analyse
+##### B2.3 Analyse
 
 Es werden keine Tracking- oder Analyse-Dienste (z. B. Google Analytics o. Ä.) verwendet.
 
-##### B2.5 Cookies
+##### B2.4 Cookies
 
 Nur technisch notwendige Cookies werden verwendet, etwa zur Verwaltung von Logins oder Sitzungen. Diese sind für den
 Betrieb erforderlich und können nicht deaktiviert werden.
 
 Es werden keine Cookies zu Werbe- oder Analysezwecken gesetzt.
 
-##### B2.6 Sicherheit
+##### B2.5 Sicherheit
 
 Alle Verbindungen erfolgen standardmässig verschlüsselt über HTTPS (TLS).
 
-##### B2.7 Login und Authentifizierung
+##### B2.6 Login und Authentifizierung
 
 Einige Webapps bieten die Möglichkeit, sich über Drittanbieter-Accounts (z. B. Google, Discord, Microsoft, GitHub)
 anzumelden.
