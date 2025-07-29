@@ -288,6 +288,10 @@ ul, ol {
     text-align: center;
 }
 
+.pre-line {
+    white-space: pre-line;
+}
+
 /* Breakpoints */
 
 @media (min-width: 481px) {
