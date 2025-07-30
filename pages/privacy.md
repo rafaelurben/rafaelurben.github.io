@@ -72,11 +72,14 @@ Domains:
 
 ##### B2.1 Hosting
 
-Die Webapps werden derzeit auf Servern der Heroku Cloud Plattform in der EU gehostet. Heroku Inc. ist eine
-Tochtergesellschaft der Salesforce.com, inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105,
-United States.
+Am Hosting der Webapps sind verschiedene Drittanbieter beteiligt, darunter:
 
-Die Daten werden auf Datenbanken in der Schweiz gespeichert, die von der Hostpoint AG (Schweiz) bereitgestellt werden.
+- **Heroku Inc.**: Hosting auf Servern der Heroku Cloud Plattform in der EU. Heroku Inc. ist eine Tochtergesellschaft
+  der Salesforce.com, inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States.
+- **Hostpoint AG**: Datenbanken auf Servern in der Schweiz. Hostpoint AG, Neue Jonastrasse 60, 8640 Rapperswil, Schweiz.
+- **Hetzner Online GmbH**: Hosting von Webapps auf Servern in Deutschland. Hetzner Online GmbH, Industriestr. 25, 91710
+  Gunzenhausen, Deutschland.
+- **Cloudflare, Inc.**: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, United States.
 
 Es gelten ergänzend die Datenschutzbestimmungen dieser Anbieter.
 
