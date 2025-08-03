@@ -12,6 +12,27 @@ scripts:
 
 <h3>Projekte</h3>
 
+<p>Hier findest du meine Projekte. Fast alle Projekte sind auch auf <a href="https://github.com/rafaelurben/">GitHub</a>
+    zu finden.</p>
+
+<h4>Alle Kategorien</h4>
+
+{% assign categories = site.data.projectsettings.categories %}
+
+<article id="category-grid">
+    {% for cat in categories %}
+        {% assign cid = cat[0] %}
+        {% assign category = cat[1] %}
+        <a href="{{ '/projects/category/' | append: cid | append: '/' | relative_url }}" class="category">
+            <h1>{{ category.title }}</h1>
+            <p class="description">{{ category.description }}</p>
+        </a>
+    {% endfor %}
+</article>
+
+
+<h4>Alle Projekte</h4>
+
 <form id="filter-form" class="horizontal">
     <div class="form-group">
         <label for="filter-category">Kategorien:</label>
@@ -55,43 +76,7 @@ scripts:
 
 <div id="project-grid">
     {% for pro in projects %}
-        {% assign pid = pro[0] %}
         {% assign project = pro[1] %}
-        <article class="project" data-project="{{ pid }}" data-status-dev="{{ project.status_dev }}"
-                 data-status-project="{{ project.status_project }}"
-                 data-categories="{{ project.categories | join: " " }}"
-                 data-description="{{ project.description }}">
-            <div class="content">
-                <h1>{{ project.title }}</h1>
-                <p class="categories">
-                    {% for cat in project.categories %}
-                        <span>{{ site.data.projectsettings.categories[cat].title }}</span>
-                    {% endfor %}
-                </p>
-                <p class="description">{{ project.subtitle }}</p>
-                <div class="badges">
-                    {% if project.githuburl %}
-                        <a class="pill link" href="{{ project.githuburl }}" target="_blank"
-                           aria-label="{{ project.title }} auf GitHub"><i class="fa-brands fa-github fa-fw"></i></a>
-                    {% endif %}
-                    {% if project.url %}
-                        <a class="pill link" href="{{ project.url }}" target="_blank"
-                           aria-label="Webseite von {{ project.title }}"><i class="fa-solid fa-link fa-fw"></i></a>
-                    {% endif %}
-
-                    {% assign status_project = site.data.projectsettings.project_status[project.status_project] %}
-                    <abbr class="pill status status-project"
-                          title="{{ status_project.description }}">{{ status_project.title }}</abbr>
-                    {% assign status_dev = site.data.projectsettings.dev_status[project.status_dev] %}
-                    <abbr class="pill status status-dev"
-                          title="{{ status_dev.description }}">{{ status_dev.title }}</abbr>
-                </div>
-            </div>
-            {% if project.img %}
-                <div class="img-container">
-                    <img src="{{ project.img }}" alt="Bild zu Projekt {{ project.title }}"/>
-                </div>
-            {% endif %}
-        </article>
+        {% include project-card.html project=project %}
     {% endfor %}
 </div>

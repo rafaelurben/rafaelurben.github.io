@@ -1,12 +1,16 @@
 categories:
   web:
     title: Web
+    description: Webseiten, Webapps und alles, was im Browser läuft.
   tools:
     title: Apps & Tools
+    description: Apps und Tools für den Desktop, das Handy oder die Konsole.
   gameextensions:
     title: Spielerweiterungen
+    description: Erweiterungen oder Pakete für Spiele.
   uncategorized:
     title: Unkategorisiert
+    description: Projekte, die derzeit keiner Kategorie zugeordnet sind.
 project_status:
   finished:
     title: Abgeschlossen

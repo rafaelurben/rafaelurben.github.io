@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign category = site.data.projectsettings.categories[page.category_id] %}
+
+<h3>Projektkategorie: {{ category.title }}</h3>
+
+<p>{{ category.description }}</p>
+
+{{ content }}
+
+<h4>Projekte</h4>
+
+{% assign projects = site.data.projects | where_exp:"project", "project.categories contains page.category_id" %}
+
+<p id="project-count" class="weak">{{ projects | size }} Projekte in dieser Kategorie:</p>
+
+<div id="project-grid">
+    {% for project in projects %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+</div>
+
+<a class="btn primary" href="{{ "/projects/" | relative_url }}">Zu allen Projekten</a>
