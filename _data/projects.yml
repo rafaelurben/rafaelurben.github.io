@@ -2,7 +2,7 @@ django-teamized:
   title: django-teamized
   subtitle: Ein Tool für Zeitmanagement, Projektplanung & Vereinsverwaltung
   githuburl: https://github.com/rafaelurben/django-teamized
-  url: https://app.rafaelurben.ch/teamized/
+  url: https://teamized.ch
   status_project: stable
   status_dev: active
   categories:
@@ -11,7 +11,7 @@ django-kmuhelper:
   title: django-kmuhelper
   subtitle: Eine Bestellungsverwaltungs-Webapp mit QR-Rechnungen für Schweizer KMU
   githuburl: https://github.com/rafaelurben/django-kmuhelper
-  url: https://www.rafaelurben.ch/django-kmuhelper/
+  url: https://www.rafaelurben.ch/kmuhelper/
   status_project: stable
   status_dev: active
   categories:
@@ -22,6 +22,22 @@ django-discordbot:
   githuburl: https://github.com/rafaelurben/django-discordbot
   status_project: stable
   status_dev: paused
+  categories:
+    - web
+django-account:
+  title: django-account
+  subtitle: Accountverwaltungsseiten für Django
+  githuburl: https://github.com/rafaelurben/django-account
+  status_project: stable
+  status_dev: support
+  categories:
+    - web
+tamtour-livestreaming:
+  title: tamtour-livestreaming
+  subtitle: Ein Livestreaming-System für die TamTour. Steuert OBS, ATEM Mini und Einblendungen.
+  githuburl: https://github.com/rafaelurben/tamtour-livestreaming
+  status_project: stable
+  status_dev: support
   categories:
     - web
 erbrechner:
@@ -42,6 +58,29 @@ autohotkey-utils:
   status_dev: support
   categories:
     - tools
+python-mystrom:
+  title: python-mystrom (pystrom)
+  subtitle: Eine Python-Bibliothek, um MyStrom-Geräte zu steuern
+  githuburl: https://github.com/rafaelurben/python-mystrom
+  status_project: stable
+  status_dev: support
+  categories:
+    - tools
+multiplayer-lasergame:
+  title: multiplayer-lasergame
+  subtitle: Ein Web-basiertes Multiplayer-Lasergame mit Python-Server
+  githuburl: https://github.com/rafaelurben/multiplayer-lasergame
+  status_project: finished
+  status_dev: support
+  categories:
+    - web
+    - games
+multiplayer-connect4:
+  title: multiplayer-connect4
+  subtitle: Ein Web-basiertes Vier gewinnt Spiel mit Python-Server
+  githuburl: https://github.com/rafaelurben/multiplayer-connect4
+  status_project: beta
+  status_dev: paused
 mc-randomized-skyfight:
   title: mc-randomized-skyfight
   subtitle: (Minecraft Datapack) Ein Spiel in Minecraft Vanilla
