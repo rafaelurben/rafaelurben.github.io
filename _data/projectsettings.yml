@@ -60,9 +60,9 @@ dev_status:
     fg-color: white
   abandoned:
     title: Aufgegeben
-    description: Das Projekt wurde aufgegeben/vernachlässigt.
-    bg-color: "#002ce0"
-    fg-color: white
+    description: Das Projekt wurde nicht weitergeführt.
+    bg-color: "#b0b0b0"
+    fg-color: black
   archived:
     title: Archiviert
     description: Das Projekt wurde archiviert und wird nicht mehr weiterentwickelt.
