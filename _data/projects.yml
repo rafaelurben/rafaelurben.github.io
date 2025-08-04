@@ -81,6 +81,9 @@ multiplayer-connect4:
   githuburl: https://github.com/rafaelurben/multiplayer-connect4
   status_project: beta
   status_dev: paused
+  categories:
+    - web
+    - games
 mc-randomized-skyfight:
   title: mc-randomized-skyfight
   subtitle: (Minecraft Datapack) Ein Spiel in Minecraft Vanilla

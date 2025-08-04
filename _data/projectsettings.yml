@@ -5,6 +5,9 @@ categories:
   tools:
     title: Apps & Tools
     description: Apps und Tools für den Desktop, das Handy oder die Konsole.
+  games:
+    title: Spiele
+    description: Spiele, die ich entwickelt habe oder an denen ich mitgewirkt habe.
   gameextensions:
     title: Spielerweiterungen
     description: Erweiterungen oder Pakete für Spiele.
