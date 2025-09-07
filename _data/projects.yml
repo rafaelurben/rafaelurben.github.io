@@ -40,6 +40,14 @@ tamtour-livestreaming:
   status_dev: support
   categories:
     - web
+tamtour-voting:
+  title: tamtour-voting
+  subtitle: Ein Publikumsvoting-System für die TamTour. Basierend auf Spring Boot & Angular.
+  githuburl: https://github.com/rafaelurben/tamtour-voting
+  status_project: stable
+  status_dev: active
+  categories:
+    - web
 erbrechner:
   title: erbrechner
   subtitle: Ein Erbrechner nach dem Schweizer ZGB
