@@ -1,6 +1,17 @@
-source 'https://rubygems.org'
+# Gemfile for Jekyll site compatible with Vercel and local development
+source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# Core Jekyll gem
+gem "jekyll", "~> 4.3"
+# Jekyll plugins
+gem "jekyll-last-modified"
+
+# For Windows file watching
+gem "wdm", ">= 0.1.0", :platforms => [:mingw, :mswin, :x64_mingw, :jruby]
+# Ruby 3+ web server support for local development
 gem "webrick", "~> 1.7"
-# gem "html-proofer"
+
+group :development do
+  # Optional: Useful for checking HTML validity
+  # gem "html-proofer"
+end
