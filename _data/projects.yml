@@ -36,7 +36,7 @@ tamtour-livestreaming:
   title: tamtour-livestreaming
   subtitle: Ein Livestreaming-System für die TamTour. Steuert OBS, ATEM Mini und Einblendungen.
   githuburl: https://github.com/rafaelurben/tamtour-livestreaming
-  status_project: stable
+  status_project: finished
   status_dev: support
   categories:
     - web
@@ -44,8 +44,8 @@ tamtour-voting:
   title: tamtour-voting
   subtitle: Ein Publikumsvoting-System für die TamTour. Basierend auf Spring Boot & Angular.
   githuburl: https://github.com/rafaelurben/tamtour-voting
-  status_project: stable
-  status_dev: active
+  status_project: finished
+  status_dev: support
   categories:
     - web
 erbrechner:
