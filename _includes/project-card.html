@@ -14,11 +14,11 @@
         <div class="badges">
             {% if project.githuburl %}
                 <a class="pill link" href="{{ project.githuburl }}" target="_blank"
-                   aria-label="{{ project.title }} auf GitHub"><i class="fa-brands fa-github fa-fw"></i></a>
+                   aria-label="{{ project.title }} auf GitHub"><i class="fa-brands fa-github"></i></a>
             {% endif %}
             {% if project.url %}
                 <a class="pill link" href="{{ project.url }}" target="_blank"
-                   aria-label="Webseite von {{ project.title }}"><i class="fa-solid fa-link fa-fw"></i></a>
+                   aria-label="Webseite von {{ project.title }}"><i class="fa-solid fa-link"></i></a>
             {% endif %}
 
             {% assign status_project = site.data.projectsettings.project_status[project.status_project] %}
