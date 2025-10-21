@@ -97,7 +97,7 @@ mc-randomized-skyfight:
   subtitle: (Minecraft Datapack) Ein Spiel in Minecraft Vanilla
   githuburl: https://github.com/rafaelurben/mc-randomizedskyfight
   status_project: finished
-  status_dev: support
+  status_dev: archived
   categories:
     - gameextensions
 mc-lootdrops:
