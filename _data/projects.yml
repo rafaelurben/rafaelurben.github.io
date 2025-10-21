@@ -34,10 +34,10 @@ django-account:
     - web
 tamtour-livestreaming:
   title: tamtour-livestreaming
-  subtitle: Ein Livestreaming-System für die TamTour. Steuert OBS, ATEM Mini und Einblendungen.
+  subtitle: Ein Livestreaming-System für die TamTour. Steuert OBS, ATEM Mini und Einblendungen. Erstellt & verwaltet YouTube-Streams.
   githuburl: https://github.com/rafaelurben/tamtour-livestreaming
   status_project: finished
-  status_dev: support
+  status_dev: archived
   categories:
     - web
 tamtour-voting:
@@ -45,7 +45,7 @@ tamtour-voting:
   subtitle: Ein Publikumsvoting-System für die TamTour. Basierend auf Spring Boot & Angular.
   githuburl: https://github.com/rafaelurben/tamtour-voting
   status_project: finished
-  status_dev: support
+  status_dev: archived
   categories:
     - web
 erbrechner:
