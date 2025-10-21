@@ -191,7 +191,7 @@ mc-elevators:
 mc-storage:
   title: mc-storage
   subtitle: (Minecraft Datapack) Ein Lagersystem für Minecraft Vanilla
-  githuburl: https://github.com/rafaelurben/mc-automation
+  githuburl: https://github.com/rafaelurben/mc-storage
   status_project: dev
   status_dev: abandoned
   categories:
